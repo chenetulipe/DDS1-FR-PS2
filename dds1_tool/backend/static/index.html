@@ -141,17 +141,13 @@
         <i data-lucide="download" class="w-4 h-4"></i>
         <span>① Extraction</span>
       </button>
-      <button onclick="switchTab('tab2')" id="btn-tab2" class="tab-btn flex items-center space-x-2 px-4 py-2 rounded-lg transition-all text-sm font-medium">
-        <i data-lucide="file-json" class="w-4 h-4"></i>
-        <span>② Édition Manuel</span>
-      </button>
       <button onclick="switchTab('tab3')" id="btn-tab3" class="tab-btn flex items-center space-x-2 px-4 py-2 rounded-lg transition-all text-sm font-medium">
         <i data-lucide="refresh-ccw" class="w-4 h-4"></i>
-        <span>③ Encodage</span>
+        <span>② Encodage</span>
       </button>
       <button onclick="switchTab('tab4')" id="btn-tab4" class="tab-btn flex items-center space-x-2 px-4 py-2 rounded-lg transition-all text-sm font-medium">
         <i data-lucide="disc" class="w-4 h-4"></i>
-        <span>④ Rebuild ISO</span>
+        <span>③ Rebuild ISO</span>
       </button>
     </div>
 
@@ -212,20 +208,20 @@
         <div class="step-card">
           <h3 class="font-semibold text-lg text-blue-100 flex items-center space-x-2 mb-2">
             <span class="bg-blue-500/20 text-blue-300 px-2 rounded">B</span> 
-            <span>Décompactage de DDS3.IMG</span>
+            <span>Extraction Rapide des Scripts (.bmd / .bf)</span>
           </h3>
-          <p class="text-sm text-blue-200/70 mb-3">Décompresse tous les fichiers du jeu contenus dans l'archive principale.</p>
+          <p class="text-sm text-blue-200/70 mb-3">Extrait uniquement les fichiers contenant du texte depuis l'archive DDS3.IMG pour un gain de temps maximal.</p>
           <button onclick="callApi('extract-ddt', {work_dir: getId('work_dir').value})" class="glass-button glass-button-primary text-sm flex items-center justify-center space-x-2 w-full sm:w-auto">
-            <i data-lucide="archive" class="w-4 h-4"></i> <span>Décompacter DDS3.IMG</span>
+            <i data-lucide="archive" class="w-4 h-4"></i> <span>Extraire les scripts traduisibles</span>
           </button>
         </div>
 
         <div class="step-card">
           <h3 class="font-semibold text-lg text-blue-100 flex items-center space-x-2 mb-2">
             <span class="bg-blue-500/20 text-blue-300 px-2 rounded">C</span> 
-            <span>Décodage des Scripts (.bmd / .bf)</span>
+            <span>Génération des Fichiers JSON</span>
           </h3>
-          <p class="text-sm text-blue-200/70 mb-3">Génère les fichiers JSON traduisibles à partir des binaires du jeu (inclut la gestion des choix [sel]).</p>
+          <p class="text-sm text-blue-200/70 mb-3">Génère les fichiers JSON traduisibles avec la gestion des choix [sel] et des noms de fichiers originaux.</p>
           <button onclick="callApi('decode-scripts', {work_dir: getId('work_dir').value})" class="glass-button glass-button-primary text-sm flex items-center justify-center space-x-2 w-full sm:w-auto">
             <i data-lucide="file-json" class="w-4 h-4"></i> <span>Générer les fichiers JSON</span>
           </button>
@@ -233,31 +229,19 @@
 
       </div>
 
-      <!-- TAB 2: Edition Manuel -->
-      <div id="tab2" class="tab-content hidden relative z-10">
-        <div class="flex flex-col items-center justify-center h-full text-center space-y-4">
-          <i data-lucide="file-code" class="w-16 h-16 text-blue-500/50"></i>
-          <h2 class="text-xl font-bold text-blue-100">Traduction GitHub & VS Code</h2>
-          <p class="text-blue-200/70 max-w-md">
-            L'éditeur intégré a été retiré pour favoriser votre workflow direct sur GitHub.
-            Modifiez directement les fichiers JSON générés dans <code>traduction/scripts/</code> avec votre éditeur de code préféré (VS Code) et commitez-les.
-          </p>
-        </div>
-      </div>
-
-      <!-- TAB 3: Encodage -->
+      <!-- TAB 2 (formerly TAB 3): Encodage -->
       <div id="tab3" class="tab-content hidden relative z-10">
         <div class="step-card">
           <h3 class="font-semibold text-lg text-blue-100 flex items-center space-x-2 mb-2">
             <span class="bg-blue-500/20 text-blue-300 px-2 rounded">D</span>
             <span>Encodage des Traductions</span>
           </h3>
-          <p class="text-sm text-blue-200/70 mb-4">Reconvertit vos fichiers JSON traduisibles (dans `traduction/scripts`) au format du jeu (.bf / .bmd).</p>
+          <p class="text-sm text-blue-200/70 mb-4">Reconvertit vos fichiers JSON traduits (dans `traduction/scripts`) au format binaire du jeu (.bf / .bmd).</p>
           
           <div class="bg-blue-900/20 border border-blue-500/20 rounded-lg p-3 mb-4">
             <p class="text-xs flex items-start space-x-2">
               <i data-lucide="info" class="w-4 h-4 text-blue-400 flex-shrink-0 mt-0.5"></i>
-              <span>L'encodage nécessite AtlusScriptCompiler. Assurez-vous que les textes ne dépassent pas les limites du jeu.</span>
+              <span>L'encodage injecte vos textes français directement dans les fichiers `.bmd`/`.bf` de `dds3data/`.</span>
             </p>
           </div>
 
@@ -268,7 +252,7 @@
         </div>
       </div>
 
-      <!-- TAB 4: Rebuild ISO -->
+      <!-- TAB 3 (formerly TAB 4): Rebuild ISO -->
       <div id="tab4" class="tab-content hidden relative z-10">
         
         <div class="step-card">
@@ -276,7 +260,7 @@
             <span class="bg-green-500/20 text-green-300 px-2 rounded">E</span>
             <span>Reconstruire DDS3.IMG</span>
           </h3>
-          <p class="text-sm text-blue-200/70 mb-3">Recompile l'archive principale du jeu et régénère la table d'indexation (DDS3.DDT) avec les tailles modifiées des fichiers traduits.</p>
+          <p class="text-sm text-blue-200/70 mb-3">Recompile l'archive principale du jeu et régénère la table d'indexation (DDS3.DDT) avec vos scripts modifiés.</p>
           <button onclick="callApi('rebuild-img', {work_dir: getId('work_dir').value})" class="glass-button w-full sm:w-auto flex items-center justify-center space-x-2">
             <i data-lucide="package" class="w-4 h-4"></i> <span>Reconstruire l'archive (DDS3.IMG)</span>
           </button>

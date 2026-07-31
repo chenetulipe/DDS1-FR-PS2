@@ -1,4 +1,4 @@
-﻿import os
+import os
 import struct
 from pathlib import Path
 from typing import Callable, Optional, Dict, List
@@ -141,7 +141,7 @@ class PS2ISOHandler:
             if mod_path.exists():
                 iso_file_path = f"/{fname};1"
                 try:
-                    iso.rm_file(file_path=iso_file_path)
+                    iso.rm_file(iso_path=iso_file_path)
                 except pycdlib.pycdlibexception.PyCdlibInvalidInput:
                     pass # might not exist exactly with this name
                 
