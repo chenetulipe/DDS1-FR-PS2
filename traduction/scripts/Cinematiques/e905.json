@@ -1,0 +1,37 @@
+{
+  "file_name": "e905.bf",
+  "original_path": "event/e900/e905/scr/e905.bf",
+  "total_messages": 3,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "MSG_START_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dammit...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "MSG_START_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Don't wuss out now.\nThis is serious!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "MSG_START_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "C'mon! Fight me!!",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "file_name": "e907.bf",
+  "original_path": "event/e900/e907/scr/e907.bf",
+  "total_messages": 2,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "MSG_000",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Testing",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "MSG_START_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Argilla participates \nin the battle.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}
