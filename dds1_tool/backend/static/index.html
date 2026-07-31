@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DDS1 Tool — Digital Devil Saga Translation Tool</title>
+  <title>DDS1 Tool â€” Digital Devil Saga Translation Tool</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
@@ -34,7 +34,7 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ─── Layout ─── */
+    /* â”€â”€â”€ Layout â”€â”€â”€ */
     #app {
       display: grid;
       grid-template-rows: auto 1fr;
@@ -78,7 +78,7 @@
     nav button:hover { color: var(--text); background: rgba(255,255,255,0.05); }
     nav button.active { background: var(--accent); color: #fff; }
 
-    /* ─── Main area ─── */
+    /* â”€â”€â”€ Main area â”€â”€â”€ */
     main {
       display: grid;
       grid-template-columns: 1fr 300px;
@@ -90,7 +90,7 @@
     .tab-panel { display: none; flex-direction: column; height: 100%; overflow: hidden; }
     .tab-panel.active { display: flex; }
 
-    /* ─── Panel / Card ─── */
+    /* â”€â”€â”€ Panel / Card â”€â”€â”€ */
     .panel {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -107,7 +107,7 @@
       margin-bottom: 8px;
     }
 
-    /* ─── Tab: Extract ─── */
+    /* â”€â”€â”€ Tab: Extract â”€â”€â”€ */
     #tab-extract {
       padding: 24px;
       gap: 20px;
@@ -206,7 +206,7 @@
       transition: width 0.3s;
     }
 
-    /* ─── Tab: Editor ─── */
+    /* â”€â”€â”€ Tab: Editor â”€â”€â”€ */
     #tab-editor {
       display: none;
       flex-direction: column;
@@ -311,7 +311,7 @@
     }
     textarea.msg-trans:focus { border-color: var(--accent); }
 
-    /* ─── Logs panel ─── */
+    /* â”€â”€â”€ Logs panel â”€â”€â”€ */
     .logs-panel {
       border-left: 1px solid var(--border);
       display: flex; flex-direction: column;
@@ -346,7 +346,7 @@
     .log-row.warn { color: var(--warn); }
     .log-row.sys { color: var(--accent); }
 
-    /* ─── Shared buttons ─── */
+    /* â”€â”€â”€ Shared buttons â”€â”€â”€ */
     .btn {
       padding: 8px 16px;
       border-radius: 7px;
@@ -366,7 +366,7 @@
     }
     .btn-primary:hover { background: #6b94fa; }
 
-    /* ─── Scrollbar ─── */
+    /* â”€â”€â”€ Scrollbar â”€â”€â”€ */
     ::-webkit-scrollbar { width: 5px; height: 5px; }
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 99px; }
@@ -381,7 +381,7 @@
     <span class="logo">DDS1 Tool</span>
     <nav>
       <button id="nav-extract" class="active" onclick="switchTab('extract')">Extraction</button>
-      <button id="nav-editor" onclick="switchTab('editor')">Éditeur</button>
+      <button id="nav-editor" onclick="switchTab('editor')">Ã‰diteur</button>
       <button id="nav-hostfs" onclick="switchTab('hostfs')">HostFS / PCSX2</button>
     </nav>
     <span style="font-size:11px;color:var(--muted);">Digital Devil Saga Translation Tool</span>
@@ -391,7 +391,7 @@
   <main>
     <div class="content">
 
-      <!-- ══ TAB: EXTRACT ══ -->
+      <!-- â•â• TAB: EXTRACT â•â• -->
       <div id="tab-extract" class="tab-panel active" style="padding:24px;gap:18px;">
 
         <div class="panel" style="display:flex;flex-direction:column;gap:16px;">
@@ -402,7 +402,7 @@
             <div class="field-row">
               <input type="text" id="iso-path-input"
                 value="C:\Users\CAMILLE.GUYONNET\Videos\DDS_FR\Shin Megami Tensei - Digital Devil Saga (Europe).iso" />
-              <button class="btn-icon" onclick="browsePath('file','.iso')" title="Parcourir">📂</button>
+              <button class="btn-icon" onclick="browsePath('file','.iso')" title="Parcourir">ðŸ“‚</button>
             </div>
           </div>
 
@@ -411,7 +411,7 @@
             <div class="field-row">
               <input type="text" id="work-dir-input"
                 value="C:\Users\CAMILLE.GUYONNET\Videos\DDS_FR\work dds" />
-              <button class="btn-icon" onclick="browsePath('dir','')" title="Parcourir">📂</button>
+              <button class="btn-icon" onclick="browsePath('dir','')" title="Parcourir">ðŸ“‚</button>
             </div>
           </div>
         </div>
@@ -428,40 +428,40 @@
         <div class="panel" style="display:flex;flex-direction:column;gap:12px;">
           <div class="section-title">Actions</div>
           <p style="font-size:12px;color:var(--muted);line-height:1.7;">
-            <b style="color:var(--text);">Étape A</b> — Extrait <code>SLES_534.58</code>, <code>DDS3.DDT</code> et <code>DDS3.IMG</code> depuis l'ISO.<br>
-            <b style="color:var(--text);">Étape B</b> — Décompresse l'archive <code>DDS3.IMG</code> (~1.4 Go, 7 664 fichiers) dans <code>dds3data/</code>.<br>
-            <b style="color:var(--text);">Étape C</b> — Décompile les 158 scripts <code>.bf/.bmd</code> en fichiers JSON éditables.
+            <b style="color:var(--text);">Ã‰tape A</b> â€” Extrait <code>SLES_534.58</code>, <code>DDS3.DDT</code> et <code>DDS3.IMG</code> depuis l'ISO.<br>
+            <b style="color:var(--text);">Ã‰tape B</b> â€” DÃ©compresse l'archive <code>DDS3.IMG</code> (~1.4 Go, 7 664 fichiers) dans <code>dds3data/</code>.<br>
+            <b style="color:var(--text);">Ã‰tape C</b> â€” DÃ©compile les 158 scripts <code>.bf/.bmd</code> en fichiers JSON Ã©ditables.
           </p>
           <div class="steps-row">
             <button class="step-btn" onclick="apiExtractIso()">
-              <span class="step-num">Étape A</span>
+              <span class="step-num">Ã‰tape A</span>
               Extraction ISO
             </button>
             <button class="step-btn" onclick="apiExtractDdt()">
-              <span class="step-num">Étape B</span>
-              Décompresse DDS3
+              <span class="step-num">Ã‰tape B</span>
+              DÃ©compresse DDS3
             </button>
             <button class="step-btn green" onclick="apiDecodeScripts()">
-              <span class="step-num">Étape C</span>
-              Générer les JSON
+              <span class="step-num">Ã‰tape C</span>
+              GÃ©nÃ©rer les JSON
             </button>
           </div>
         </div>
 
       </div>
 
-      <!-- ══ TAB: EDITOR ══ -->
+      <!-- â•â• TAB: EDITOR â•â• -->
       <div id="tab-editor" class="tab-panel">
         <div class="editor-toolbar">
-          <span id="editor-file-title" style="font-size:13px;font-weight:600;color:var(--muted);">Sélectionnez un fichier</span>
+          <span id="editor-file-title" style="font-size:13px;font-weight:600;color:var(--muted);">SÃ©lectionnez un fichier</span>
           <div style="display:flex;gap:8px;align-items:center;">
-            <button class="btn" onclick="fetchScriptList()">↺ Rafraîchir</button>
+            <button class="btn" onclick="fetchScriptList()">â†º RafraÃ®chir</button>
             <button class="btn btn-primary" onclick="saveCurrentScript()">Sauvegarder</button>
           </div>
         </div>
         <div class="editor-body">
           <div id="editor-file-list">
-            <p style="font-size:12px;color:var(--muted);padding:16px;font-style:italic;">Effectuez l'Étape C d'abord.</p>
+            <p style="font-size:12px;color:var(--muted);padding:16px;font-style:italic;">Effectuez l'Ã‰tape C d'abord.</p>
           </div>
           <div class="editor-main">
             <input type="text" id="editor-search-bar" placeholder="Rechercher dans ce script..." oninput="filterScriptMessages()">
@@ -472,14 +472,14 @@
         </div>
       </div>
 
-      <!-- ══ TAB: HOSTFS ══ -->
+      <!-- â•â• TAB: HOSTFS â•â• -->
       <div id="tab-hostfs" class="tab-panel" style="padding:24px;gap:18px;">
         <div class="panel" style="display:flex;flex-direction:column;gap:12px;">
-          <div class="section-title">Export HostFS — Test dans PCSX2</div>
+          <div class="section-title">Export HostFS â€” Test dans PCSX2</div>
           <p style="font-size:12px;color:var(--muted);line-height:1.7;">
-            Génère le fichier <code>.pnach</code> (CRC 9F69CD63) et prépare le dossier <code>dds3data/</code> pour tester vos traductions directement dans PCSX2 sans recompiler l'ISO.
+            GÃ©nÃ¨re le fichier <code>.pnach</code> (CRC 9F69CD63) et prÃ©pare le dossier <code>dds3data/</code> pour tester vos traductions directement dans PCSX2 sans recompiler l'ISO.
           </p>
-          <button class="btn btn-primary" onclick="runHostfsSetup()" style="width:fit-content;">Générer le patch HostFS</button>
+          <button class="btn btn-primary" onclick="runHostfsSetup()" style="width:fit-content;">GÃ©nÃ©rer le patch HostFS</button>
           <div id="hostfs-res-box" style="display:none;padding:12px;background:rgba(0,0,0,0.3);border:1px solid var(--border2);border-radius:7px;font-family:var(--mono);font-size:12px;color:#94a3b8;"></div>
         </div>
       </div>
@@ -493,7 +493,7 @@
         <button onclick="clearLogs()">Effacer</button>
       </div>
       <div id="logs-list-body">
-        <div class="log-row sys">[SYSTEM] DDS1 Tool prêt.</div>
+        <div class="log-row sys">[SYSTEM] DDS1 Tool prÃªt.</div>
       </div>
     </div>
   </main>
@@ -505,7 +505,7 @@
   let currentFileName = '';
   let allScripts = [];
 
-  // ─── Navigation ───
+  // â”€â”€â”€ Navigation â”€â”€â”€
   function switchTab(name) {
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
@@ -514,7 +514,7 @@
     if (name === 'editor') fetchScriptList();
   }
 
-  // ─── Logs ───
+  // â”€â”€â”€ Logs â”€â”€â”€
   function addLog(msg, type = 'INFO') {
     const body = document.getElementById('logs-list-body');
     const row = document.createElement('div');
@@ -533,7 +533,7 @@
     document.getElementById('logs-list-body').innerHTML = '';
   }
 
-  // ─── Progress polling ───
+  // â”€â”€â”€ Progress polling â”€â”€â”€
   setInterval(async () => {
     try {
       const res = await fetch('/api/progress');
@@ -552,7 +552,7 @@
     } catch (_) {}
   }, 800);
 
-  // ─── Browse ───
+  // â”€â”€â”€ Browse â”€â”€â”€
   async function browsePath(type, ext) {
     try {
       const res = await fetch('/api/browse', {
@@ -568,12 +568,12 @@
     } catch (e) { addLog('Erreur parcourir : ' + e.message, 'ERROR'); }
   }
 
-  // ─── Step A ───
+  // â”€â”€â”€ Step A â”€â”€â”€
   async function apiExtractIso() {
     const iso = document.getElementById('iso-path-input').value.trim();
     const work = document.getElementById('work-dir-input').value.trim();
     if (!iso || !work) { addLog('Renseignez le chemin ISO et le dossier de travail.', 'WARN'); return; }
-    addLog('Étape A — Extraction ISO...', 'INFO');
+    addLog('Ã‰tape A â€” Extraction ISO...', 'INFO');
     try {
       const res = await fetch('/api/extract-iso', {
         method: 'POST',
@@ -585,11 +585,11 @@
     } catch (e) { addLog('Erreur : ' + e.message, 'ERROR'); }
   }
 
-  // ─── Step B ───
+  // â”€â”€â”€ Step B â”€â”€â”€
   async function apiExtractDdt() {
     const work = document.getElementById('work-dir-input').value.trim();
     if (!work) { addLog('Renseignez le dossier de travail.', 'WARN'); return; }
-    addLog('Étape B — Décompression DDS3.IMG...', 'INFO');
+    addLog('Ã‰tape B â€” DÃ©compression DDS3.IMG...', 'INFO');
     try {
       const res = await fetch('/api/extract-ddt', {
         method: 'POST',
@@ -601,11 +601,11 @@
     } catch (e) { addLog('Erreur : ' + e.message, 'ERROR'); }
   }
 
-  // ─── Step C ───
+  // â”€â”€â”€ Step C â”€â”€â”€
   async function apiDecodeScripts() {
     const work = document.getElementById('work-dir-input').value.trim();
     if (!work) { addLog('Renseignez le dossier de travail.', 'WARN'); return; }
-    addLog('Étape C — Décompilation des scripts...', 'INFO');
+    addLog('Ã‰tape C â€” DÃ©compilation des scripts...', 'INFO');
     try {
       const res = await fetch('/api/decode-scripts', {
         method: 'POST',
@@ -617,7 +617,7 @@
     } catch (e) { addLog('Erreur : ' + e.message, 'ERROR'); }
   }
 
-  // ─── Editor ───
+  // â”€â”€â”€ Editor â”€â”€â”€
   async function fetchScriptList() {
     const work = document.getElementById('work-dir-input').value.trim();
     const sidebar = document.getElementById('editor-file-list');
@@ -627,7 +627,7 @@
       const data = await res.json();
       allScripts = data.scripts || [];
       if (!allScripts.length) {
-        sidebar.innerHTML = '<p style="font-size:12px;color:var(--muted);padding:16px;font-style:italic;">Aucun script. Effectuez l\'Étape C.</p>';
+        sidebar.innerHTML = '<p style="font-size:12px;color:var(--muted);padding:16px;font-style:italic;">Aucun script. Effectuez l\'Ã‰tape C.</p>';
         return;
       }
 
@@ -649,7 +649,7 @@
         files.forEach(s => {
           const item = document.createElement('div');
           item.className = 'file-item' + (currentFileName === s.file_name ? ' active' : '');
-          item.title = s.file_name + ' — ' + s.total_messages + ' messages';
+          item.title = s.file_name + ' â€” ' + s.total_messages + ' messages';
           item.textContent = s.base.replace('.json', '') + ' (' + s.total_messages + ')';
           item.onclick = () => loadScriptFile(s.file_name, item);
           sidebar.appendChild(item);
@@ -685,13 +685,32 @@
       const card = document.createElement('div');
       card.className = 'msg-card';
       const orig = (m.texte_orig || '').trim();
+      let transInput = '';
+      if (m.block_type === 'sel' && m.choix_orig && Array.isArray(m.choix_orig)) {
+        let inputs = '';
+        if (!m.choix_fr) m.choix_fr = Array(m.choix_orig.length).fill('');
+        m.choix_orig.forEach((c_orig, i) => {
+          let p_orig = c_orig ? esc(c_orig) : '(vide)';
+          inputs += `
+            <div style="margin-top: 8px; border-left: 2px solid var(--accent); padding-left: 8px;">
+              <div style="font-size:11px; color:var(--muted); margin-bottom:2px;">Choix ${i+1} : ${p_orig}</div>
+              <input type="text" class="msg-trans" style="height:28px;" placeholder="Traduction choix ${i+1}..." value="${esc(m.choix_fr[i] || '')}" oninput="updateChoix(${idx}, ${i}, this.value)" />
+            </div>
+          `;
+        });
+        transInput = inputs;
+      } else {
+        transInput = `<textarea class="msg-trans" rows="2" placeholder="Traduction franÃ§aise..." oninput="updateTrans(${idx}, this.value)">${esc(m.texte_fr || '')}</textarea>`;
+      }
+
       card.innerHTML = `
         <div class="msg-meta">
           <span>#${m.id}</span>
           <span style="color:var(--accent);">${esc(m.offset)}</span>
+          ${m.block_type === 'sel' ? '<span style="background:var(--accent);color:var(--bg);padding:2px 6px;border-radius:4px;font-size:10px;margin-left:8px;">CHOIX</span>' : ''}
         </div>
-        <div class="msg-orig ${orig ? '' : 'empty'}">${orig ? esc(orig) : '— texte non décodé (japonais interne) —'}</div>
-        <textarea class="msg-trans" rows="2" placeholder="Traduction française..." oninput="updateTrans(${idx}, this.value)">${esc(m.texte_fr || '')}</textarea>
+        <div class="msg-orig ${orig ? '' : 'empty'}">${orig ? esc(orig) : 'â€” texte non dÃ©codÃ© (japonais interne) â€”'}</div>
+        ${transInput}
       `;
       list.appendChild(card);
     });
@@ -700,18 +719,31 @@
   function filterScriptMessages() {
     const q = document.getElementById('editor-search-bar').value.toLowerCase();
     if (!currentScriptData) return;
-    const filtered = currentScriptData.messages.filter(m =>
-      (m.texte_orig || '').toLowerCase().includes(q) ||
-      (m.texte_fr || '').toLowerCase().includes(q) ||
-      (m.offset || '').toLowerCase().includes(q)
-    );
+    const filtered = currentScriptData.messages.filter(m => {
+      let inOrig = (m.texte_orig || '').toLowerCase().includes(q);
+      let inFr = (m.texte_fr || '').toLowerCase().includes(q);
+      let inOffset = (m.offset || '').toLowerCase().includes(q);
+      let inChoix = false;
+      if (m.choix_orig) inChoix = inChoix || m.choix_orig.some(c => c.toLowerCase().includes(q));
+      if (m.choix_fr) inChoix = inChoix || m.choix_fr.some(c => c.toLowerCase().includes(q));
+      return inOrig || inFr || inOffset || inChoix;
+    });
     renderMessages(q ? filtered : currentScriptData.messages);
   }
 
   function updateTrans(idx, val) {
-    if (currentScriptData && currentScriptData.messages[idx])
-      currentScriptData.messages[idx].texte_fr = val;
-  }
+      if (currentScriptData && currentScriptData.messages[idx])
+        currentScriptData.messages[idx].texte_fr = val;
+    }
+
+    function updateChoix(msgIdx, choixIdx, val) {
+      if (currentScriptData && currentScriptData.messages[msgIdx]) {
+        if (!currentScriptData.messages[msgIdx].choix_fr) {
+           currentScriptData.messages[msgIdx].choix_fr = Array(currentScriptData.messages[msgIdx].choix_orig.length).fill('');
+        }
+        currentScriptData.messages[msgIdx].choix_fr[choixIdx] = val;
+      }
+    }
 
   async function saveCurrentScript() {
     if (!currentScriptData || !currentFileName) { addLog('Aucun fichier ouvert.', 'WARN'); return; }
@@ -723,12 +755,12 @@
         body: JSON.stringify({ work_dir: work, file_name: currentFileName, messages: currentScriptData.messages })
       });
       const data = await res.json();
-      if (res.ok) addLog('Sauvegardé : ' + currentFileName, 'SUCCESS');
+      if (res.ok) addLog('SauvegardÃ© : ' + currentFileName, 'SUCCESS');
       else addLog('Erreur sauvegarde : ' + (data.detail || ''), 'ERROR');
     } catch (e) { addLog('Erreur : ' + e.message, 'ERROR'); }
   }
 
-  // ─── HostFS ───
+  // â”€â”€â”€ HostFS â”€â”€â”€
   async function runHostfsSetup() {
     const work = document.getElementById('work-dir-input').value.trim();
     try {
@@ -741,8 +773,8 @@
       if (res.ok) {
         const box = document.getElementById('hostfs-res-box');
         box.style.display = 'block';
-        box.innerHTML = `✓ Patch prêt !<br>HostFS : ${data.hostfs_dir}<br>Pnach : ${data.pnach_file}`;
-        addLog('Patch HostFS créé : ' + data.pnach_file, 'SUCCESS');
+        box.innerHTML = `âœ“ Patch prÃªt !<br>HostFS : ${data.hostfs_dir}<br>Pnach : ${data.pnach_file}`;
+        addLog('Patch HostFS crÃ©Ã© : ' + data.pnach_file, 'SUCCESS');
       } else addLog('Erreur HostFS : ' + (data.detail || ''), 'ERROR');
     } catch (e) { addLog('Erreur : ' + e.message, 'ERROR'); }
   }
@@ -753,3 +785,4 @@
 </script>
 </body>
 </html>
+
