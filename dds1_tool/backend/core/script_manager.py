@@ -129,17 +129,33 @@ class ScriptManager:
                 continue
 
             combined = "\n".join(display_lines)
-
-            messages.append({
-                "id":          msg_id,
-                "offset":      msg_name,
-                "block_type":  block_type,
-                "nom_orig":    "",
-                "nom_fr":      "",
-                "texte_orig":  combined,
-                "texte_fr":    "",
-                "notes":       ""
-            })
+            
+            if block_type == "sel":
+                choix_orig = combined.split("\n")
+                choix_fr = [""] * len(choix_orig)
+                messages.append({
+                    "id":          msg_id,
+                    "offset":      msg_name,
+                    "block_type":  block_type,
+                    "nom_orig":    "",
+                    "nom_fr":      "",
+                    "texte_orig":  combined,
+                    "choix_orig":  choix_orig,
+                    "texte_fr":    "",
+                    "choix_fr":    choix_fr,
+                    "notes":       ""
+                })
+            else:
+                messages.append({
+                    "id":          msg_id,
+                    "offset":      msg_name,
+                    "block_type":  block_type,
+                    "nom_orig":    "",
+                    "nom_fr":      "",
+                    "texte_orig":  combined,
+                    "texte_fr":    "",
+                    "notes":       ""
+                })
             msg_id += 1
 
         # Cleanup generated files
