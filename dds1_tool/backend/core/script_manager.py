@@ -387,3 +387,49 @@ class ScriptManager:
             pass
 
         return out_path.exists()
+
+    def encode_all_scripts(self, input_json_dir: str, dds3data_dir: str, logger: Optional[Callable] = None) -> List[str]:
+        """Encodes all JSON scripts in input_json_dir back into binary .bmd / .bf files inside dds3data_dir."""
+        in_dir = Path(input_json_dir)
+        orig_dir = Path(dds3data_dir)
+        
+        if not in_dir.exists():
+            if logger:
+                logger(f"Dossier JSON introuvable : {in_dir}", "error")
+            return []
+
+        json_files = list(in_dir.rglob("*.json"))
+        encoded = []
+
+        if logger:
+            logger(f"Encodage de {len(json_files)} fichiers JSON vers {dds3data_dir}...", "info")
+
+        for idx, jf in enumerate(json_files):
+            rel_path = jf.relative_to(in_dir)
+            # Find matching bmd or bf in dds3data
+            matching_orig = None
+            for ext in [".bmd", ".bf"]:
+                cand = orig_dir / rel_path.with_suffix(ext)
+                if cand.exists():
+                    matching_orig = cand
+                    break
+
+            if not matching_orig:
+                if logger:
+                    logger(f"Fichier original introuvable pour {rel_path}", "warn")
+                continue
+
+            out_bmd = matching_orig  # Overwrite in dds3data directly so repack_img uses it
+            res = self.encode_json_to_bmd(str(jf), str(matching_orig), str(out_bmd))
+            if res:
+                encoded.append(str(out_bmd))
+                if logger:
+                    logger(f"Encodé : {rel_path}", "info")
+            else:
+                if logger:
+                    logger(f"Échec de l'encodage (ou pas de modification) pour : {rel_path}", "warn")
+
+        if logger:
+            logger(f"Encodage terminé ! {len(encoded)} fichiers .bmd/.bf mis à jour.", "success")
+
+        return encoded

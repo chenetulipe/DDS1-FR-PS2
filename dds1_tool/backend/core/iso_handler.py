@@ -1,4 +1,4 @@
-import os
+﻿import os
 import struct
 from pathlib import Path
 from typing import Callable, Optional, Dict, List
@@ -107,6 +107,57 @@ class PS2ISOHandler:
 
                 extracted[fname] = str(dest)
                 if logger:
-                    logger(f"V {fname} extrait avec succès !", "success")
+                    logger(f"V {fname} extrait avec succÃ¨s !", "success")
+
+                extracted[fname] = str(dest)
+                if logger:
+                    logger(f"V {fname} extrait avec succÃ¨s !", "success")
 
         return extracted
+
+    def rebuild_iso(self, extracted_dir: str, out_iso_path: str, logger: Optional[Callable] = None, progress_fn: Optional[Callable] = None):
+        """Rebuilds a new PS2 ISO using the modified files from extracted_dir."""
+        try:
+            import pycdlib
+        except ImportError:
+            if logger:
+                logger("ERREUR: Le module 'pycdlib' n'est pas installÃ©. (pip install pycdlib)", "error")
+            return
+
+        if logger:
+            logger(f"Ouverture de l'ISO originale pour reconstruction...", "info")
+
+        iso = pycdlib.PyCdlib()
+        iso.open(str(self.iso_path))
+
+        out_root = Path(extracted_dir)
+        
+        # Files to inject
+        targets = [fname for fname in self.files_lba if fname.startswith("SLES_") or fname.startswith("SLUS_") or fname in ("DDS3.DDT", "DDS3.IMG", "SYSTEM.CNF")]
+        total = len(targets)
+        
+        for i, fname in enumerate(targets):
+            mod_path = out_root / fname
+            if mod_path.exists():
+                iso_file_path = f"/{fname};1"
+                try:
+                    iso.rm_file(file_path=iso_file_path)
+                except pycdlib.pycdlibexception.PyCdlibInvalidInput:
+                    pass # might not exist exactly with this name
+                
+                if logger:
+                    logger(f"Injection de {fname} modifiÃ©...", "info")
+                iso.add_file(str(mod_path), iso_file_path)
+            
+            if progress_fn and total > 0:
+                progress_fn((i + 1) / total, fname)
+
+        if logger:
+            logger("Ã‰criture de la nouvelle ISO (cela peut prendre quelques minutes)...", "info")
+        
+        iso.write(out_iso_path)
+        iso.close()
+
+        if logger:
+            logger(f"ISO reconstruite avec succÃ¨s : {out_iso_path}", "success")
+

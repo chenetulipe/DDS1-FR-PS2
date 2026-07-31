@@ -1,4 +1,4 @@
-import os
+﻿import os
 import struct
 from pathlib import Path
 from io import BytesIO
@@ -10,15 +10,15 @@ SECTOR_SIZE = 2048
 # Each DDT entry = 12 bytes:
 #   name_offset (uint32) : byte offset in DDT to the null-terminated file name
 #   location    (uint32) : sector index in DDS3.IMG  (0 for directories)
-#   size        (int32)  : if negative → directory (abs value = number of children)
-#                          if positive → file size in bytes
+#   size        (int32)  : if negative â†’ directory (abs value = number of children)
+#                          if positive â†’ file size in bytes
 
 class DDS3FileEntry:
     def __init__(self):
         self.name = ""
         self.name_offset = 0
         self.location = 0     # sector index
-        self.size = 0         # bytes (positive) or child count (negative → directory)
+        self.size = 0         # bytes (positive) or child count (negative â†’ directory)
         self.is_dir = False
         self.children: Dict[str, "DDS3FileEntry"] = {}
         self.parent: Optional["DDS3FileEntry"] = None
@@ -34,7 +34,7 @@ class DDTImgHandler:
     DDT node format (12 bytes each):
       - name_offset (4 bytes, unsigned) : offset in DDT of the null-terminated ASCII name
       - location    (4 bytes, unsigned) : starting sector in the IMG file
-      - size        (4 bytes, signed)   : file size in bytes; if negative → directory,
+      - size        (4 bytes, signed)   : file size in bytes; if negative â†’ directory,
                                           abs(size) = number of direct children
     """
 
@@ -91,7 +91,7 @@ class DDTImgHandler:
             child_count = -size
 
             # The directory's "location" field is the byte offset in the DDT where
-            # its children start (NOT a sector — it points back into the DDT itself).
+            # its children start (NOT a sector â€” it points back into the DDT itself).
             child_start = location
             ddt_file.seek(child_start)
 
@@ -109,7 +109,7 @@ class DDTImgHandler:
         return entry
 
     def load_index(self) -> Dict[str, DDS3FileEntry]:
-        """Parses DDS3.DDT and builds the full virtual file tree. Returns a dict path→entry."""
+        """Parses DDS3.DDT and builds the full virtual file tree. Returns a dict pathâ†’entry."""
         if not self.ddt_path.exists():
             raise FileNotFoundError(f"DDT not found: {self.ddt_path}")
 
@@ -171,7 +171,7 @@ class DDTImgHandler:
                     logger(f"Extraction en cours : {i+1}/{total} fichiers...", "info")
 
         if logger:
-            logger(f"Extraction terminée : {len(extracted)} fichiers extraits dans {output_dir}", "success")
+            logger(f"Extraction terminÃ©e : {len(extracted)} fichiers extraits dans {output_dir}", "success")
 
         return extracted
 
@@ -218,3 +218,77 @@ class DDTImgHandler:
         if not self.file_entries:
             self.load_index()
         return [p for p, e in self.file_entries.items() if not e.is_dir]
+
+    # ------------------------------------------------------------------
+    # Repacking
+    # ------------------------------------------------------------------
+
+    def repack_img(
+        self,
+        extracted_dir: str,
+        out_img_path: str,
+        out_ddt_path: str,
+        logger: Optional[Callable] = None,
+        progress_fn: Optional[Callable] = None,
+    ):
+        """Rebuilds DDS3.IMG and DDS3.DDT by packing files from extracted_dir.
+        Falls back to original IMG if a file is missing in extracted_dir.
+        """
+        if not self.file_entries:
+            self.load_index()
+
+        out_root = Path(extracted_dir)
+        
+        # Copy original DDT to new DDT since we will only overwrite the 12-byte headers
+        import shutil
+        shutil.copy2(self.ddt_path, out_ddt_path)
+        
+        file_list = [e for e in self.file_entries.values() if not e.is_dir and e.size > 0]
+        total = len(file_list)
+        
+        if logger:
+            logger(f"Reconstruction de DDS3.IMG Ã  partir de {total} fichiers...", "info")
+
+        current_sector = 0
+
+        with open(self.img_path, "rb") as orig_img, \
+             open(out_img_path, "wb") as new_img, \
+             open(out_ddt_path, "r+b") as new_ddt:
+            
+            for i, entry in enumerate(file_list):
+                mod_path = out_root / entry.path
+                
+                # Check if modified file exists
+                if mod_path.exists():
+                    with open(mod_path, "rb") as mf:
+                        data = mf.read()
+                else:
+                    # Fallback to original
+                    orig_img.seek(entry.location * SECTOR_SIZE)
+                    data = orig_img.read(entry.size)
+
+                # Write to new IMG
+                new_size = len(data)
+                new_location = current_sector
+                
+                new_img.write(data)
+                
+                # Padding to sector boundary
+                remainder = new_size % SECTOR_SIZE
+                if remainder != 0:
+                    padding = SECTOR_SIZE - remainder
+                    new_img.write(b"\x00" * padding)
+                    current_sector += (new_size // SECTOR_SIZE) + 1
+                else:
+                    current_sector += (new_size // SECTOR_SIZE)
+                
+                # Update DDT
+                new_ddt.seek(entry.offset)
+                new_ddt.write(struct.pack("<IIi", entry.name_offset, new_location, new_size))
+                
+                if progress_fn and total > 0:
+                    progress_fn((i + 1) / total)
+
+        if logger:
+            logger(f"Reconstruction terminÃ©e ! Nouvelle archive IMG gÃ©nÃ©rÃ©e : {out_img_path}", "success")
+
