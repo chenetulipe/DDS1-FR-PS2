@@ -1,0 +1,36 @@
+{
+  "file_name": "e914.bf",
+  "total_messages": 3,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "MSG_START_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Heh...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "MSG_START_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Alright then...\nLet's see what you're made\nof, Mr. Leader...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "MSG_START_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Time to die!!",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

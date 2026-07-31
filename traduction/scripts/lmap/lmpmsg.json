@@ -1,0 +1,36 @@
+{
+  "file_name": "lmpmsg.bmd",
+  "total_messages": 3,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "lmpmsg_go",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Do you want to go to ?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "lmpmsg_select",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "lmpmsg_new",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "new??",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

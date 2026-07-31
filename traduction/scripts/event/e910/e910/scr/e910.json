@@ -1,0 +1,16 @@
+{
+  "file_name": "e910.bf",
+  "total_messages": 1,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "MSG_SERA_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Everyone, don't give in!",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

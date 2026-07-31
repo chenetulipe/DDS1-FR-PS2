@@ -1,0 +1,30 @@
+# Exclusion des fichiers lourds liés aux jeux PS2
+*.iso
+*.img
+*.ddt
+*.bin
+*.cnf
+*.ELF
+SLES_534.58
+
+# Dossier d'extraction de DDS3.IMG (très lourd et généré)
+dds3data/
+work dds/dds3data/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+.Python
+
+# Logs et environnements virtuels
+logs/
+*.log
+venv/
+env/
+.env
+
+# Paramètres IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

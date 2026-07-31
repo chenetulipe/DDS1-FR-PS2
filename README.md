@@ -1,134 +1,44 @@
-# DDS1 Tool — Digital Devil Saga Translation Tool
+# Digital Devil Saga 1 - Traduction Française
 
-> Outil complet d'extraction, décompilation et traduction du jeu **Shin Megami Tensei: Digital Devil Saga** (version européenne, PS2, SLES_534.58).
+Ce dépôt centralise le travail, les scripts et les outils nécessaires à la traduction française du jeu **Shin Megami Tensei: Digital Devil Saga** sur PlayStation 2.
 
----
+## À propos du projet
 
-## 🎮 À propos du projet
+L'objectif de ce projet est de proposer une localisation française complète et de qualité pour Digital Devil Saga 1. Le jeu n'ayant jamais bénéficié d'une traduction officielle en français, ce dépôt vise à regrouper les efforts de traduction, l'extraction des textes, et la compilation des scripts modifiés.
 
-Ce projet vise à produire une traduction française de *Digital Devil Saga 1* sur PS2.  
-L'outil développé ici permet d'extraire les scripts du jeu, de les éditer, et de les réinjecter dans le binaire pour tester la traduction directement dans PCSX2.
+Le projet utilise des outils développés sur mesure pour faciliter le travail des traducteurs et garantir une intégration parfaite dans le moteur du jeu.
 
----
+## Structure du Dépôt
 
-## 🛠️ Architecture de l'outil
+- `dds1_tool/` : L'interface web et les scripts Python de l'outil d'extraction et de traduction.
+- `traduction/` : Contient les scripts JSON prêts à être traduits (extraits du jeu).
+- `DICTIONNAIRE.md` : Lexique collaboratif pour assurer la cohérence des termes (noms, objets, compétences).
+- `Lancer DDS1 Tool.bat` : Script de lancement rapide de l'outil pour Windows.
 
-```
-dds1_tool/
-├── backend/
-│   ├── server.py                  # API FastAPI (serveur local)
-│   ├── core/
-│   │   ├── ddt_img.py             # Parseur d'archive DDS3.DDT / DDS3.IMG
-│   │   ├── script_manager.py      # Décompilateur / Recompilateur de scripts Atlus
-│   │   ├── iso_handler.py         # Extraction des fichiers depuis l'ISO PS2
-│   │   ├── hostfs.py              # Générateur de patch HostFS PCSX2
-│   │   └── validator.py           # Validation des traductions
-│   ├── tools/
-│   │   ├── dotnet/                # Runtime .NET 8 portable (bundlé)
-│   │   ├── AtlusScriptCompiler.dll  # Compilateur officiel Atlus
-│   │   └── Charsets/              # Tables de caractères connues
-│   └── static/
-│       └── index.html             # Interface Web (vanilla HTML/CSS/JS)
-└── README.md
-```
+## L'Outil DDS1 Tool
 
----
+Un outil sur mesure a été développé pour faciliter la traduction. Il offre une interface visuelle pour extraire l'ISO, éditer les textes et recompiler le tout.
 
-## 🔄 Workflow
+### Prérequis
+- Windows
+- Python 3.10 ou supérieur
 
-### Étape A — Extraction ISO
-Extrait depuis l'ISO les 3 fichiers essentiels :
-- `SLES_534.58` — Exécutable PS2
-- `DDS3.DDT` — Index de l'archive (table des matières)
-- `DDS3.IMG` — Conteneur de données (~1.4 Go)
+### Installation et Démarrage
+1. Clonez ou téléchargez ce dépôt.
+2. Placez l'ISO de votre jeu (version Europe) à la racine ou dans un dossier accessible.
+3. Double-cliquez sur `Lancer DDS1 Tool.bat`.
+4. L'outil s'ouvrira automatiquement dans votre navigateur (sur `http://localhost:8000`).
 
-### Étape B — Extraction DDS3
-L'archive DDS3 utilise un **arbre binaire de 12 bytes par nœud** :
+### Mode d'emploi
+1. **Étape A** : Sélectionnez l'ISO du jeu pour extraire les fichiers vitaux.
+2. **Étape B** : Décompressez l'archive principale du jeu (`DDS3.IMG`).
+3. **Étape C** : Décodez les scripts du jeu. L'outil isolera automatiquement les textes anglais et ignorera les reliquats japonais.
+4. **Éditeur** : Utilisez l'interface pour traduire les textes. Le format JSON généré est compatible avec les outils de traduction standards (format `texte_orig` et `texte_fr`).
+5. **Sauvegarde** : Les traductions sont sauvegardées directement dans `traduction/scripts/`.
 
-| Champ | Taille | Description |
-|---|---|---|
-| `name_offset` | 4 bytes uint | Pointeur vers le nom dans le DDT |
-| `location` | 4 bytes uint | Secteur de départ dans DDS3.IMG |
-| `size` | 4 bytes int signé | **Négatif** = dossier (abs = nb d'enfants) / **Positif** = taille en bytes |
+## Licence
 
-Résultat : **7 664 fichiers dans 604 dossiers**, dont 143 scripts `.bf` et 15 fichiers `.bmd`.
+Ce projet et ses scripts associés sont distribués sous la licence **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+Vous êtes libre de partager et d'adapter ce travail à condition de créditer l'auteur original, de ne pas en faire d'utilisation commerciale, et de partager vos modifications sous la même licence.
 
-### Étape C — Décompilation des scripts
-Utilise [AtlusScriptCompiler](https://github.com/TGEnigma/AtlusScriptTools) pour décompiler les scripts binaires `.bf` / `.bmd` en JSON éditables.
-
----
-
-## 📁 Structure de travail (Work Dir)
-
-```
-work dds/
-├── SLES_534.58        ← Exécutable PS2 (Étape A)
-├── DDS3.DDT           ← Index archive (Étape A)
-├── DDS3.IMG           ← Archive données (Étape A)
-├── dds3data/          ← Fichiers extraits (Étape B)
-│   ├── battle/
-│   │   └── script/*.bmd
-│   ├── event/
-│   │   └── eXXX/*/scr/*.bf
-│   └── ...
-└── traduction/
-    └── scripts/       ← JSONs éditables (Étape C)
-        ├── battle/script/
-        └── event/
-```
-
----
-
-## 🚀 Lancer l'outil
-
-```powershell
-# Prérequis : Python 3.10+
-cd dds1_tool
-pip install fastapi uvicorn python-multipart
-
-python backend/server.py
-# → Ouvrir http://localhost:8000
-```
-
-Le runtime **.NET 8** et **AtlusScriptCompiler** sont bundlés — aucune installation externe requise.
-
----
-
-## 🔍 Notes techniques
-
-### Format des scripts Atlus (BMD / BF)
-
-- **`.bf`** (FlowScript) : Logique de jeu — conditions, appels de fonctions, cinématiques. Décompile en pseudo-C lisible.
-- **`.bmd`** (MessageScript) : Textes de dialogues. Format propriétaire Atlus avec table de pointeurs.
-
-### Encodage du texte
-
-La version européenne utilise le **même encodage que la version américaine** (ASCII standard).  
-Les fichiers `.bmd` présents dans l'archive sont des **artéfacts de développement japonais** laissés par Atlus, pas les dialogues finaux du jeu.
-
----
-
-## 🎯 Roadmap
-
-- [x] Extraction correcte de l'arbre DDS3 (7 664 fichiers, 604 dossiers)
-- [x] Décompilation des scripts `.bf` / `.bmd` via AtlusScriptCompiler
-- [x] Interface Web d'édition des scripts JSON
-- [x] Sauvegarde et réinjection des traductions
-- [x] Patch HostFS pour test dans PCSX2 sans recompiler l'ISO
-- [ ] Localisation de tous les fichiers de dialogue finaux
-- [ ] Traduction française complète
-- [ ] Recompilation ISO finale
-
----
-
-## 📚 Ressources
-
-- [AtlusScriptTools](https://github.com/TGEnigma/AtlusScriptTools) — Compilateur Atlus
-- [Nocturne-Randomizer](https://github.com/nmarkro/Nocturne-Randomizer) — Référence du format DDS3FS
-- [PCSX2](https://pcsx2.net/) — Émulateur PS2 utilisé pour les tests
-
----
-
-## 📝 Licence
-
-Projet de fan non-commercial. *Digital Devil Saga* © Atlus / SEGA.
+*Note : Les outils de modding tiers (comme AtlusScriptCompiler) inclus dans ce dépôt restent la propriété de leurs auteurs originaux sous leurs licences respectives.*
