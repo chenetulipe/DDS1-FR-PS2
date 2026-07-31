@@ -406,13 +406,27 @@ class ScriptManager:
 
         for idx, jf in enumerate(json_files):
             rel_path = jf.relative_to(in_dir)
-            # Find matching bmd or bf in dds3data
             matching_orig = None
-            for ext in [".bmd", ".bf"]:
-                cand = orig_dir / rel_path.with_suffix(ext)
-                if cand.exists():
-                    matching_orig = cand
-                    break
+            
+            # Read JSON to get stored original_path
+            try:
+                with open(jf, "r", encoding="utf-8") as f_json:
+                    j_data = json.load(f_json)
+                    orig_rel = j_data.get("original_path")
+                    if orig_rel:
+                        cand = orig_dir / orig_rel
+                        if cand.exists():
+                            matching_orig = cand
+            except Exception:
+                pass
+
+            # Fallback if original_path field not present
+            if not matching_orig:
+                for ext in [".bmd", ".bf"]:
+                    cand = orig_dir / rel_path.with_suffix(ext)
+                    if cand.exists():
+                        matching_orig = cand
+                        break
 
             if not matching_orig:
                 if logger:
