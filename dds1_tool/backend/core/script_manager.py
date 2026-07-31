@@ -34,22 +34,16 @@ class ScriptManager:
         self.dotnet_exe = self.tools_dir / "dotnet" / "dotnet.exe"
         self.compiler_dll = self.tools_dir / "AtlusScriptCompiler.dll"
 
-    def decode_bmd_file(self, script_path: str) -> Dict[str, Any]:
-        """
-        Reads a binary .bmd or .bf file via AtlusScriptCompiler and extracts
-        English text to JSON.  Japanese-only messages are skipped.
-        """
-        path = Path(script_path)
+    def decode_bmd_file(self, path_str: str) -> Dict[str, Any]:
+        """Decompiles a .bmd or .bf file to .msg using AtlusScriptCompiler, then parses it."""
+        path = Path(path_str).resolve()
         if not path.exists():
-            raise FileNotFoundError(f"Script file not found: {script_path}")
+            return {"file_name": path.name, "total_messages": 0, "messages": []}
 
         is_bf = path.suffix.lower() == ".bf"
 
-        # Output paths differ: .bmd → .bmd.msg, .bf → .bf.msg
-        if is_bf:
-            msg_file = path.with_name(path.name + ".msg")
-        else:
-            msg_file = path.with_name(path.name + ".msg")
+        # Output path is always input filename + .msg (e.g. f021.bf.msg or mes_data.bmd.msg)
+        msg_file = path.with_name(path.name + ".msg")
 
         cmd = [str(self.dotnet_exe), str(self.compiler_dll), str(path),
                "-Decompile", "-Library", "DDS"]
@@ -130,6 +124,23 @@ class ScriptManager:
 
             combined = "\n".join(display_lines)
             
+            # Infer speaker name from offset (e.g. gale_01 -> Gale, heat_01 -> Heat)
+            speaker_name = ""
+            lower_name = msg_name.lower()
+            if lower_name.startswith("gale"): speaker_name = "Gale"
+            elif lower_name.startswith("heat"): speaker_name = "Heat"
+            elif lower_name.startswith("arujila") or lower_name.startswith("argilla"): speaker_name = "Argilla"
+            elif lower_name.startswith("ciero") or lower_name.startswith("cielo"): speaker_name = "Cielo"
+            elif lower_name.startswith("sera"): speaker_name = "Sera"
+            elif lower_name.startswith("surf"): speaker_name = "Surf"
+            elif lower_name.startswith("jinana"): speaker_name = "Jinana"
+            elif lower_name.startswith("harley"): speaker_name = "Harley"
+            elif lower_name.startswith("mick"): speaker_name = "Mick"
+            elif lower_name.startswith("lupa"): speaker_name = "Lupa"
+            elif lower_name.startswith("bat"): speaker_name = "Bat"
+            elif lower_name.startswith("angel"): speaker_name = "Angel"
+            elif lower_name.startswith("npc"): speaker_name = "NPC"
+
             if block_type == "sel":
                 choix_orig = combined.split("\n")
                 choix_fr = [""] * len(choix_orig)
@@ -137,7 +148,7 @@ class ScriptManager:
                     "id":          msg_id,
                     "offset":      msg_name,
                     "block_type":  block_type,
-                    "nom_orig":    "",
+                    "nom_orig":    speaker_name,
                     "nom_fr":      "",
                     "texte_orig":  combined,
                     "choix_orig":  choix_orig,
@@ -150,7 +161,7 @@ class ScriptManager:
                     "id":          msg_id,
                     "offset":      msg_name,
                     "block_type":  block_type,
-                    "nom_orig":    "",
+                    "nom_orig":    speaker_name,
                     "nom_fr":      "",
                     "texte_orig":  combined,
                     "texte_fr":    "",
@@ -195,60 +206,46 @@ class ScriptManager:
         decoded_files = []
         decoded_lock = __import__('threading').Lock()
 
-        # --- Phase 1: direct .bmd / .bf files (parallel, 4 workers) ---
+        # --- Phase 1: direct .bmd / .bf files ---
         script_files = list(in_path.rglob("*.bmd")) + list(in_path.rglob("*.bf"))
         total = len(script_files)
         if logger:
-            logger(f"Phase 1 : {total} scripts a decoder (4 workers en parallele)...", "info")
+            logger(f"Phase 1 : {total} scripts à décoder...", "info")
 
-        completed = [0]  # mutable counter
-
-        def decode_one(fpath):
+        for idx, fpath in enumerate(script_files, 1):
             try:
                 decoded_data = self.decode_bmd_file(str(fpath))
             except Exception:
                 decoded_data = {"total_messages": 0, "messages": []}
 
-            with decoded_lock:
-                completed[0] += 1
-                idx = completed[0]
-                n = decoded_data.get("total_messages", 0)
-                if n > 0:
-                    rel = fpath.relative_to(in_path)
-                    decoded_data["original_path"] = rel.as_posix()
+            n = decoded_data.get("total_messages", 0)
+            if n > 0:
+                rel = fpath.relative_to(in_path)
+                decoded_data["original_path"] = rel.as_posix()
+                
+                parts = list(rel.parts)
+                if parts[0] == 'event': cat = 'Cinematiques'
+                elif parts[0] == 'fld': cat = 'Exploration'
+                elif parts[0] == 'facility': cat = 'Boutiques_Menus'
+                else: cat = 'Divers'
+                
+                basename = rel.with_suffix(".json").name
+                if 'mes_data' in basename and len(parts) > 1:
+                    basename = f"{parts[-2]}_{basename}"
                     
-                    parts = list(rel.parts)
-                    if parts[0] == 'event': cat = 'Cinematiques'
-                    elif parts[0] == 'fld': cat = 'Exploration'
-                    elif parts[0] == 'facility': cat = 'Boutiques_Menus'
-                    else: cat = 'Divers'
-                    
-                    basename = rel.with_suffix(".json").name
-                    if 'mes_data' in basename and len(parts) > 1:
-                        basename = f"{parts[-2]}_{basename}"
-                        
-                    json_dest = out_path / cat / basename
-                    json_dest.parent.mkdir(parents=True, exist_ok=True)
-                    try:
-                        with open(json_dest, "w", encoding="utf-8") as out_json:
-                            json.dump(decoded_data, out_json, ensure_ascii=False, indent=2)
-                        decoded_files.append(str(json_dest))
-                        if logger:
-                            logger(f"[{idx}/{total}] {fpath.name} -> {n} msgs EN trouves", "info")
-                    except Exception:
-                        pass
-                else:
-                    if logger:
-                        logger(f"[{idx}/{total}] {fpath.name} (aucun dialogue)", "info")
-
-        from concurrent.futures import ThreadPoolExecutor, as_completed
-        with ThreadPoolExecutor(max_workers=4) as executor:
-            futures = {executor.submit(decode_one, f): f for f in script_files}
-            for fut in as_completed(futures):
+                json_dest = out_path / cat / basename
+                json_dest.parent.mkdir(parents=True, exist_ok=True)
                 try:
-                    fut.result()
+                    with open(json_dest, "w", encoding="utf-8") as out_json:
+                        json.dump(decoded_data, out_json, ensure_ascii=False, indent=2)
+                    decoded_files.append(str(json_dest))
+                    if logger:
+                        logger(f"[{idx}/{total}] {fpath.name} -> {n} msgs extraits ({basename})", "info")
                 except Exception:
                     pass
+            else:
+                if logger and idx % 20 == 0:
+                    logger(f"[{idx}/{total}] progression...", "info")
 
         if logger:
             logger(f"Phase 1 terminee : {len(decoded_files)}/{total} fichiers avec dialogues anglais.", "success")
