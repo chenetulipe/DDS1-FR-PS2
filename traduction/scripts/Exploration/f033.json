@@ -1,0 +1,537 @@
+{
+  "file_name": "f033.bf",
+  "original_path": "fld/f/f033/f033.bf",
+  "total_messages": 53,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "modori_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Water is surging toward you!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "AREA_07MODOSARE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Returned to start.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "AKUMAKA_SURU",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> An Oxygen Tank is necessary\nto proceed.\n> Equip the Oxygen Tank?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "AKUMAKA_SURU_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "AKUMAKA_OK",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The Oxygen Tank is equipped.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "COUNT_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The water current seems to\nincrease in speed.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "COUNT_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The current is gradually\nspeeding up.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "offset": "COUNT_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A sense of foreboding pervades\nthe area.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "offset": "AREA16_BERU_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So, you ignorant shadows have\narrived at last.\nBehold, I am Beelzebub!\nNow is the time to rise out of\npurgatory and cover the present\nworld with terror and corruption.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "offset": "AREA16_BERU_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Kneel before the Wicked King...\nOffer yourselves to me!!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "offset": "noisefullornot",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Set Noise level to 7(15).\nSet Noise level to 5(11).\nSet Noise level to 3(7).\nSet Noise level to 1(3).\nDo nothing.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "offset": "EXITWARP",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Leave the area?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "offset": "EXITWARP_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "offset": "HOSEKI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object hovers in midair.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "offset": "HOSEKI_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "offset": "HOSEKI_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "offset": "HOSEKI_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "offset": "TAKARA",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object lies on the floor.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "offset": "TAKARA_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "offset": "TAKARA_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "offset": "TAKARA_STILLGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Nothing happened.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "offset": "TAKARA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "offset": "TAKARA_GET2",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .\n> That's the substance the Temple is\nlooking for. It can be traded in for\nMacca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "offset": "TAKARA_MAKA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  Macca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "offset": "TAKARA_DAMAGE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "offset": "TAKARA_DAMAGE_POISON",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand was poisoned.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "offset": "TAKARA_DAMAGE_ACHE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand had stomach aches.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "offset": "TAKARA_DAMAGE_CLOSE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage\nand had magic sealed.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "offset": "TAKARA_KARAGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It was empty.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "offset": "TAKARASAGASI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  found something.\n.........\n> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "offset": "COMP_OPENERROR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Cannot be used here.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "offset": "BAD_KAIFUKUSITAYO",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Due to the decline in\nSolar Noise, Serph's party was\nrelieved of abnormal status.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "offset": "COMP_LIGHTMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The light's effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "offset": "COMP_ESTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The anti-demon field faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "offset": "COMP_REBERAMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The demon attraction faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "offset": "COMP_REFUTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The floating effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "offset": "WARP_ELV_MSG",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Select a floor.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "offset": "WARP_ELV_SEL1",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "offset": "WARP_ELV_SEL2",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "offset": "WARP_ELV_SEL3",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "offset": "WARP_ELV_SEL4",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "offset": "WARP_ELV_SEL5",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "offset": "WARP_ELV_SEL6",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "offset": "FLD_BLUEICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nThe Blue Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "offset": "FLD_REDICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nThe Red Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "offset": "FLD_YERWICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nThe Yellow Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "offset": "FLD_BLUEICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "offset": "FLD_REDICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "offset": "FLD_YERWICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "offset": "FLD_ICE_BREAK",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Destroy it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "offset": "FLD_ICE_BREAK_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "offset": "BEL_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strong power can be sensed\nfrom beyond the door.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "offset": "BELDOOR_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

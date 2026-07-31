@@ -1,0 +1,237 @@
+{
+  "file_name": "mes_data.bmd",
+  "original_path": "facility/msg/shop/mes_data.bmd",
+  "total_messages": 23,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "msg_1st",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Welcome.\nHow may I help you?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "msg_buy01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What will you buy?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "msg_buy02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "How many will you buy?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "msg_sell01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What will you sell?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "msg_sell02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "How many will you sell?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "msg_err_nums_max",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Exceeds carrying capacity.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "msg_err_nums_none",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> You have no items to sell.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "offset": "msg_confirm",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  Macca total.\nOkay?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "offset": "msg_thanks",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Thank you very much.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "offset": "msg_2nd",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Is there anything else?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "offset": "msg_exit",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Please come back again.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "offset": "msg_sel01",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "offset": "msg_err_maka_max",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Surplus Macca will be discarded.\nOkay?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "offset": "msg_add_item",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  was added to\nthe Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "offset": "msg_privilege01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. New items added\nto the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "offset": "msg_privilege02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. New items added\nto the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "offset": "msg_privilege03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. New items added\nto the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "offset": "msg_privilege04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. Special items\nadded to the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "offset": "msg_privilege05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. New items added\nto the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "offset": "msg_privilege06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. Special items\nadded to the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "offset": "msg_privilege07",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. Special items\nadded to the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "offset": "msg_privilege08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n> Cell bonus earned. Special items\nadded to the Vendor's inventory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "offset": "msg_privilege01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Special items may become available\nthrough the Vendor when you have\nsold sufficient cells.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

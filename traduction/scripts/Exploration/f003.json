@@ -1,0 +1,2147 @@
+{
+  "file_name": "f003.bf",
+  "original_path": "fld/f/f003/f003.bf",
+  "total_messages": 214,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "YES_NO",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "hungry",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph and the party feel hungry...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "hungry02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> They grew weak from hunger.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "BLUE_GET_KARI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Obtained the Blue Clue skill.\nThis skill comes after the\namplification of atma, but\nsuppose that you earned it.\nAlso, it's not necessary to\nset a skill in order to\nuse it at this time.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "sera_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm alright.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "sera_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Please don't do anything\ndangerous.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "sera_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Lupa is on the other side of town...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "offset": "sera_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I don't know why I have this feeling,\nbut... I'm sure of it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "offset": "sera_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Serph, do you think that\nLupa is okay?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "offset": "sera_04a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I couldn't save him...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "offset": "sera_04b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I must really seem useless...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "offset": "heat_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They fear us.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "offset": "heat_00_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why?\nWhat is fear?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "offset": "heat_00_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We will find out soon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "offset": "heat_00_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Just look around.\nIt cannot be explained.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "offset": "heat_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Do you see \"fear\" now?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "offset": "heat_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What an annoying woman.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "offset": "heat_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Well, if she changes her mind,\nI'll just grab that guy over there.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "offset": "heat_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What a buncha losers!\nI'll never end up like them.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "offset": "heat_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What a buncha losers!\nI'll never end up like them.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "offset": "heat_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "These newbies have guts.\nI like that in a meal.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "offset": "heat_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I know you're hungry, but try to\nwait a little longer.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "offset": "heat_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I know you're hungry, but try to\nwait a little longer.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "offset": "heat_08a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That chunky bastard!\nIf he does anything to Sera...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "offset": "heat_08b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "...I'll tear out his heart and\nhang it from that damn citadel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "offset": "heat_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera, aren't you hungry?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "offset": "heat_10",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What's that loser want with\nus, now?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "offset": "heat_11",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I never knew Gale could get so\nworked up.\nWhy's he talking about finding\nsomeone?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "offset": "heat_12a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It doesn't matter who Sera really is.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "offset": "heat_12b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm going to protect her!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "offset": "heat_SISEI_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Damn these bastards!\nMakin' us waste our time...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "offset": "heat_SISEI_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It's not like we can help people\nwho have already been devoured.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "offset": "heat_SISEI_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Hurry up! We need to find Sera!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "offset": "heat_SISEI_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You care too much about others,\ny'know that?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "offset": "heat_SISEI_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If we're gonna do this,\nthen hurry the hell up, already!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "offset": "heat_SISEI_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera... don't do anything stupid.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "offset": "heat_SISEI_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What a waste of time.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "offset": "heat_SISEI_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Okay, everyone's happy.\nLet's get going!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "offset": "aljira_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They are entirely vulnerable.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "offset": "aljira_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What happened to the Vanguards?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "offset": "aljira_15a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Where are you going, Serph?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "offset": "aljira_15b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Harley escaped further into\ntheir base.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "offset": "aljira_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "A defeated Tribe follows the leader\nof the victorious Tribe.\nThat's the law.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "offset": "aljira_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "A defeated Tribe follows the leader\nof the victorious Tribe.\nThat's the law.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "offset": "aljira_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why are we here, of all places?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "offset": "aljira_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Serph, try to keep our battles\nto a minimum.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "offset": "aljira_06a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Comrades...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "offset": "aljira_06b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I wonder if we're \"comrades\" too.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "offset": "aljira_07a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Comrades...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "offset": "aljira_07b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I wonder if we're \"comrades\" too.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "offset": "aljira_08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Serph, worry about Sera for now.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "offset": "aljira_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They're going to trap you by using\nSera as a shield.\nYou should really stay here...\nBut, I know you aren't going to listen.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "offset": "aljira_10",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Hm...\nHas Sera eaten anything since\nwe found her?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "offset": "aljira_11",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This must not be the place.\nSvadhisthana is huge.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "offset": "aljira_12",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Come to think of it...\nGale asked me what could make\na woman cry.\nI told him something probably\nmade her sad... But why would\nhe ask a question like that?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "offset": "aljira_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Come to think of it...\nGale asked me what could make\na woman cry.\nI told him something probably\nmade her sad... But why would\nhe ask a question like that?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "offset": "aljira_14",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If I was devoured, then I couldn't\nbe here now, could I?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "offset": "aljira_SISEI_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Nobody's here... Don't tell me\nthey've all been...!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "offset": "aljira_SISEI_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This couldn't have happened at\na worse time!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "offset": "aljira_SISEI_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This Atma crap only accomplishes\none thing.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 60,
+      "offset": "aljira_SISEI_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What good is a world where one\nperson stands alone on the bodies\nof his slain enemies?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 61,
+      "offset": "aljira_SISEI_04a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We've killed three of them,\nso that means their boss must\nbe in the final area.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 62,
+      "offset": "aljira_SISEI_04b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "...But, something doesn't seem\nright, don't you think?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 63,
+      "offset": "aljira_SISEI_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Let's get back to the tower,\nSerph.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 64,
+      "offset": "aljira_SISEI_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It's time to face our destiny, and\nlearn the truth about our lives.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 65,
+      "offset": "gale_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What are comrades?\nI do not comprehend.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 66,
+      "offset": "gale_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They do not pose a threat.\nWe should return to headquarters\nimmediately.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 67,
+      "offset": "gale_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Mick's plan is obvious.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 68,
+      "offset": "gale_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera's safety is guaranteed,\nbut we will be unable to move\nagainst our enemy.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 69,
+      "offset": "gale_03c",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "For the moment, we can only\nprepare by increasing our combat\nabilities.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 70,
+      "offset": "gale_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So, she has no need to consume food\nfor energy?  I do not comprehend...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 71,
+      "offset": "gale_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We should find out Lupa's intentions.\nLet us hurry, Serph.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 72,
+      "offset": "gale_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We must attack Varin immediately.\nDon't let Lupa's sacrifice be\nin vain.\nIf you aren't ready, then I will\nlead the Embryon into battle.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 73,
+      "offset": "gale_07a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Are you going to dishonor\nLupa's memory?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 74,
+      "offset": "gale_07b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We must attack Varin immediately.\nDon't let Lupa's sacrifice be\nin vain.\nIf you aren't ready, then I will\nlead the Embryon into battle.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 75,
+      "offset": "gale_08a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I originally accepted this power\nwithout question...\nBut, killing Lupa taught me of\npain and regret.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 76,
+      "offset": "gale_08b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why has the Temple cursed us with\nthis Atma?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 77,
+      "offset": "gale_08_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Perhaps they are testing us.\nI do not know.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 78,
+      "offset": "gale_08_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What is there to test?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 79,
+      "offset": "gale_08_0_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Atma.\nOurselves.\nThat I do not know...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 80,
+      "offset": "gale_08_0_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Atma... Demonic power...\nThey collect data as we devour\neach other.\nThis is possible...\nBut, to what end?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 81,
+      "offset": "gale_08_0_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes, that would be ironic.\nBut, what is there to gain from\ntesting us?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 82,
+      "offset": "gale_08_0_ans2",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That's true--if we knew the answer,\nwe wouldn't be in this mess.\nLet's ask them ourselves.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 83,
+      "offset": "gale_08_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That's true--if we knew the answer,\nwe wouldn't be in this mess.\nLet's ask them ourselves.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 84,
+      "offset": "gale_SISEI_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They either fled, or were\ndevoured.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 85,
+      "offset": "gale_SISEI_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Whichever case, the report seems\nto be true.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 86,
+      "offset": "gale_SISEI_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dealing with them will not change\nour situation.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 87,
+      "offset": "gale_SISEI_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "However, they did kill some\nof our comrades.\nThis could be considered revenge\nfor such needless killing.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 88,
+      "offset": "gale_SISEI_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If we are victorious, then all\nwars will end.\nI truly hope that this comes\nto pass.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 89,
+      "offset": "gale_SISEI_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "There isn't time to lose.\nIf we're going to eliminate them,\nlet's do it quickly.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 90,
+      "offset": "gale_SISEI_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera knows all about this world,\nand everything about us.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 91,
+      "offset": "gale_SISEI_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Let's head for the Temple, Serph.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 92,
+      "offset": "ciero_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Heat is violent when he be\ndevourin' someone. It's a bit\nharsh for girls to watch.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 93,
+      "offset": "ciero_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Ohhh... Sera likes you, bro.\nDon't ask me how, but I know dis.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 94,
+      "offset": "ciero_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Even Gale be growin' impatient\nfor once.\nC'mon, let's go brudda.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 95,
+      "offset": "ciero_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Even Gale be growin' impatient\nfor once.\nC'mon, let's go brudda.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 96,
+      "offset": "ciero_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Argilla been devoured...?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 97,
+      "offset": "ciero_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If dat be true, it means dere be\ndemons like us in Nirvana...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 98,
+      "offset": "ciero_SISEI_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What de hell dey want now?\nWe already won, ja?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 99,
+      "offset": "ciero_SISEI_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What should we do, bro?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 100,
+      "offset": "ciero_SISEI_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It sucks dat we gotta deal wit\ndis instead of just going to\nde Temple.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 101,
+      "offset": "ciero_SISEI_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Three places down, ja?\nLet's look for deir boss, then!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 102,
+      "offset": "ciero_SISEI_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "All our comrades were s'posed ta\ngo to Nirvana wit' us...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 103,
+      "offset": "npc_01_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Harley is dead.\nWe will follow the Embryon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 104,
+      "offset": "npc_01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Harley is dead.\nWe will follow the Embryon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 105,
+      "offset": "npc_01_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Harley is dead.\nWe will follow the Embryon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 106,
+      "offset": "npc_01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Rookies are trying to form a new\nTribe, using this as their\nheadquarters.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 107,
+      "offset": "npc_01_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Rookies keep springing up, no matter\nhow many of them we devour.\nThey're like machines.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 108,
+      "offset": "npc_01_04a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So, that's the black-haired girl.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 109,
+      "offset": "npc_01_04b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "As she said, Lupa is waiting\nover there.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 110,
+      "offset": "npc_01_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Rookies keep springing up, no matter\nhow many of them we devour.\nThey're like machines.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 111,
+      "offset": "npc_01_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Wars raged constantly in the country\nI used to live in...\nW-Wait... What am I saying?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 112,
+      "offset": "npc_02_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We will obey Junkyard law.\nYou are the new boss.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 113,
+      "offset": "npc_02_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We will obey Junkyard law.\nYou are the new boss.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 114,
+      "offset": "npc_02_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "As their numbers increase, they are\nbecoming much more of a burden.\nWhat will we do, sir?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 115,
+      "offset": "npc_02_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those rookies are still resisting.\nI can't devour any more of them...\nCan you handle them, sir?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 116,
+      "offset": "npc_02_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those rookies are still resisting.\nI can't devour any more of them...\nCan you handle them, sir?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 117,
+      "offset": "npc_02_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those rookies are still resisting.\nI can't devour any more of them...\nCan you handle them, sir?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 118,
+      "offset": "npc_02_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "There's no point in fighting the rookies\nnow, sir.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 119,
+      "offset": "npc_08_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "New leader, are you adequately\nsupplied?\nUse the Vendor efficiently to\navoid being injured in battle.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 120,
+      "offset": "npc_08_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir, the cell exchange rate seems\nto fluctuate.\nIf you plan carefully for the best\nrate, you will earn more Macca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 121,
+      "offset": "npc_09_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Harley is dead.\nHe left something important in\nhis room before he fell.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 122,
+      "offset": "npc_001_10_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir, rookies are encroaching on\nour territory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 123,
+      "offset": "npc_001_10_01_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It is of little concern.\nRookies?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 124,
+      "offset": "npc_001_10_01_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes, sir.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 125,
+      "offset": "npc_001_10_01_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Perhaps the light affected your\nmemory more seriously than you\nfirst thought, sir.\nRookies are newcomers.\nWe were once rookies, as well.\nRookies form into groups and\nbecome a Tribe. They are then\nbound to the law, and Nirvana.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 126,
+      "offset": "aljira_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Get back... to the base.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 127,
+      "offset": "ciero_003_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dat's true! If it didn't flow\nsomewhere, den dis town would be\ncompletely flooded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 128,
+      "offset": "ciero_003_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why didn't we notice sumthing so\nobvious, eh?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 129,
+      "offset": "ciero_003_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I wonder if dis \"honor\" thing\nis inside me, too.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 130,
+      "offset": "ciero_003_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "To think... Gale was always de\nstickler for da rules...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 131,
+      "offset": "ciero_003_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Lupa musta been some guy, to\nturn that around.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 132,
+      "offset": "gale_003_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I see. I missed it completely.\nThere is a path for rain to\ntravel underground.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 133,
+      "offset": "gale_003_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Honor is in me, as well...?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 134,
+      "offset": "gale_003_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Tribe color no longer has any\nmeaning. Prove yourself, as\nan individual.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 135,
+      "offset": "npc_07_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Such a dignified man would surely\nlearn from his defeat.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 136,
+      "offset": "npc_07_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You can't make them all surrender.\nWhile they would make good allies,\nwe'll have to kill them if they\nresist.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 137,
+      "offset": "npc_07_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You can kill them, but they\nwon't be defeated.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 138,
+      "offset": "npc_07_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I understand what he means...\nOur soul is immortal, and our\nfeelings eternal. My mother told\nme that, once...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 139,
+      "offset": "npc_07_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Did I... have a mother...?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 140,
+      "offset": "npc_06_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Lupa of the Wolves...\nHe has the \"Lavaflow\" Atma, and\nis an expert fighter.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 141,
+      "offset": "npc_06_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those who attack him are defeated\ninstantly.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 142,
+      "offset": "npc_06_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That kick was fast...\nGale is a force to be reckoned with.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 143,
+      "offset": "npc_03_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This is an official visit from\nthe Wolves. Treat us with respect.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 144,
+      "offset": "rupa_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We have met once before, but allow\nme to introduce myself formally.\nI am Lupa, leader of the Wolves.\nI am sorry for my previous\ndiscourtesy. I should have known\nyou are a reasonable man.\nI trust you will forgive me.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 145,
+      "offset": "npc_04_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We are Lupa's attendants. Allow us\nto be admitted into the presence of\nthe Embryon's leader.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 146,
+      "offset": "heat_003_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So that's Lupa...\nLooks tougher than I expected.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 147,
+      "offset": "heat_003_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "...Still no match for me, though.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 148,
+      "offset": "heat_003_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Damn that Varin!\nDoes he know something about Sera?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 149,
+      "offset": "heat_003_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "C'mon, Serph.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 150,
+      "offset": "heat_003_04a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What the hell are you talking\nabout? If you die, it's all over!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 151,
+      "offset": "heat_003_04b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Nobody's going to use me.\nI'll survive, and have it all\nto myself.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 152,
+      "offset": "heat_003_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I don't give a damn about souls\nor recycled information.\nLet's find Sera.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 153,
+      "offset": "npc_05_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They came out of that hole.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 154,
+      "offset": "npc_05_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin defeated them by \nhimself!?\nWhat kind of monster is he?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 155,
+      "offset": "npc_05_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "There may be a place underground...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 156,
+      "offset": "npc_05_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The rain is so natural that I never\nreally noticed it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 157,
+      "offset": "sera_003_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "A river of reincarnation flows\nfrom the rain of the dead.\nWithin the egg's shell, lost souls\ncontinue their circulation...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 158,
+      "offset": "sera_003_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "No... It shouldn't be like this...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 159,
+      "offset": "sera_003_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I...\nI don't want to go any further...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 160,
+      "offset": "sera_003_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why did God establish this cycle?\nIt only multiplies sadness...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 161,
+      "offset": "arujila_003_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those who die are purified in the\nclouds and become rain.\nThe Karma Temple then grants them\na new life...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 162,
+      "offset": "arujila_003_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That must be why...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 163,
+      "offset": "arujila_003_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "How does Varin know about Sera?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 164,
+      "offset": "arujila_003_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I felt something from Jinana,\ntoo... so I think I understand.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 165,
+      "offset": "npc_03_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We are all ships in the vast sea\nof life. Hold your heads high like\nwind-blown sails...\nThe compass which shows us the way\nlies in our hearts.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 166,
+      "offset": "npc_03_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We vowed service to Lupa. Forgive\nus, but we will not abandon the color\nof the Wolves.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 167,
+      "offset": "npc_04_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Cherish honor and believe in\nyourself. That is the law of\nthe Wolves.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 168,
+      "offset": "npc_04_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Do you know of the soul?\nIt carries the information of\none's feelings.\nIf someone inherits his soul, then\nLupa will not truly die. Just like...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 169,
+      "offset": "EXITWARP",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Leave the area?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 170,
+      "offset": "EXITWARP_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 171,
+      "offset": "HOSEKI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object hovers in midair.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 172,
+      "offset": "HOSEKI_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 173,
+      "offset": "HOSEKI_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 174,
+      "offset": "HOSEKI_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 175,
+      "offset": "TAKARA",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object lies on the floor.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 176,
+      "offset": "TAKARA_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 177,
+      "offset": "TAKARA_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 178,
+      "offset": "TAKARA_STILLGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Nothing happened.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 179,
+      "offset": "TAKARA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 180,
+      "offset": "TAKARA_GET2",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .\n> That's the substance the Temple is\nlooking for. It can be traded in for\nMacca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 181,
+      "offset": "TAKARA_MAKA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  Macca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 182,
+      "offset": "TAKARA_DAMAGE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 183,
+      "offset": "TAKARA_DAMAGE_POISON",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand was poisoned.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 184,
+      "offset": "TAKARA_DAMAGE_ACHE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand had stomach aches.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 185,
+      "offset": "TAKARA_DAMAGE_CLOSE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage\nand had magic sealed.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 186,
+      "offset": "TAKARA_KARAGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It was empty.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 187,
+      "offset": "TAKARASAGASI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  found something.\n.........\n> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 188,
+      "offset": "COMP_OPENERROR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Cannot be used here.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 189,
+      "offset": "BAD_KAIFUKUSITAYO",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Due to the decline in\nSolar Noise, Serph's party was\nrelieved of abnormal status.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 190,
+      "offset": "COMP_LIGHTMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The light's effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 191,
+      "offset": "COMP_ESTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The anti-demon field faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 192,
+      "offset": "COMP_REBERAMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The demon attraction faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 193,
+      "offset": "COMP_REFUTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The floating effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 194,
+      "offset": "WARP_ELV_MSG",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Select a floor.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 195,
+      "offset": "WARP_ELV_SEL1",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 196,
+      "offset": "WARP_ELV_SEL2",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 197,
+      "offset": "WARP_ELV_SEL3",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 198,
+      "offset": "WARP_ELV_SEL4",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 199,
+      "offset": "WARP_ELV_SEL5",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 200,
+      "offset": "WARP_ELV_SEL6",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 201,
+      "offset": "FLD_BLUEICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nThe Blue Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 202,
+      "offset": "FLD_REDICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nThe Red Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 203,
+      "offset": "FLD_YERWICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nThe Yellow Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 204,
+      "offset": "FLD_BLUEICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 205,
+      "offset": "FLD_REDICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 206,
+      "offset": "FLD_YERWICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 207,
+      "offset": "FLD_ICE_BREAK",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Destroy it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 208,
+      "offset": "FLD_ICE_BREAK_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 209,
+      "offset": "INFTEST0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "INFTEST0",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 210,
+      "offset": "INFTEST1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "INFTEST1",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 211,
+      "offset": "INFTEST1_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes\nNo",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 212,
+      "offset": "INFTEST1_YES",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "INFTEST1_YES",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 213,
+      "offset": "INFTEST1_NO",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "INFTEST1_NO",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

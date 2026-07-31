@@ -153,6 +153,7 @@ class ScriptManager:
 
         return {
             "file_name":      path.name,
+            "original_path":  "",
             "total_messages": len(messages),
             "messages":       messages
         }
@@ -198,7 +199,19 @@ class ScriptManager:
                 n = decoded_data.get("total_messages", 0)
                 if n > 0:
                     rel = fpath.relative_to(in_path)
-                    json_dest = out_path / rel.with_suffix(".json")
+                    decoded_data["original_path"] = rel.as_posix()
+                    
+                    parts = list(rel.parts)
+                    if parts[0] == 'event': cat = 'Cinematiques'
+                    elif parts[0] == 'fld': cat = 'Exploration'
+                    elif parts[0] == 'facility': cat = 'Boutiques_Menus'
+                    else: cat = 'Divers'
+                    
+                    basename = rel.with_suffix(".json").name
+                    if 'mes_data' in basename and len(parts) > 1:
+                        basename = f"{parts[-2]}_{basename}"
+                        
+                    json_dest = out_path / cat / basename
                     json_dest.parent.mkdir(parents=True, exist_ok=True)
                     try:
                         with open(json_dest, "w", encoding="utf-8") as out_json:
@@ -268,7 +281,15 @@ class ScriptManager:
                                 if decoded_data["total_messages"] > 0:
                                     # Output path: lb folder structure + lb name + user_id
                                     rel_lb = lb_path.relative_to(in_path)
-                                    json_dest = out_path / rel_lb.parent / f"{lb_path.stem}_{uid}.json"
+                                    decoded_data["original_path"] = f"{rel_lb.as_posix()}#{uid}"
+                                    
+                                    parts = list(rel_lb.parts)
+                                    if parts[0] == 'event': cat = 'Cinematiques'
+                                    elif parts[0] == 'fld': cat = 'Exploration'
+                                    elif parts[0] == 'facility': cat = 'Boutiques_Menus'
+                                    else: cat = 'Divers'
+                                    
+                                    json_dest = out_path / cat / f"{lb_path.stem}_{uid}.json"
                                     json_dest.parent.mkdir(parents=True, exist_ok=True)
                                     # Tag the source
                                     decoded_data["file_name"] = f"{lb_path.name}#{uid}.bmd"

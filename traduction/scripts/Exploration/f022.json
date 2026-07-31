@@ -1,0 +1,947 @@
+{
+  "file_name": "f022.bf",
+  "original_path": "fld/f/f022/f022.bf",
+  "total_messages": 94,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "TUTORIAL_MES_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph and Heat devoured the\ndefeated enemies.\n> After the battle, their HP will\nrecover slightly because they\nconsumed their enemies.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "HARRY_EVENT_01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yeaargh!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "HARRY_EVENT_01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Raise the wall!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "BATTLE_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "There's a voice in my head...\nIt keeps saying... devour...\nKeep devouring... Devour more...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "BATTLE_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm...so hungry...\nI'm starving... Starving, starving...\nStarving, starving... STARVING STARVING!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "BATTLE_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They've chased us this far...\nThe Embryon...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "HARRY_EVENT_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "G-Get away from me!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "offset": "PARTY_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Try something new.\nBlock the path and drive him\ninto a dead end.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "offset": "HARRY_EVENT_03_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'll give you my territory\nand my hideout...\nJust leave me alone!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "offset": "BERU_ROOM_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> An ominous air can be felt\nfrom underneath.\nIt's too dark to see into the room.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "offset": "BERU_ROOM_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> An ominous air can be felt\nfrom underneath.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "offset": "BATTLE_BERU_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You know, Boss...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "offset": "BATTLE_BERU_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Shouldn't there be absolute laws\nover the Junkyard?\nWe should only be subject to\nthe laws of nature.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "offset": "BATTLE_BERU_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "In other words...\nSomeone as weak as you doesn't deserve\nto be in charge.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "offset": "BATTLE_BERU_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Ugh...\nDon't think that you've surpassed\nme, Boss...\nI... I'll devour others to\ngrow strong...\nWhen next we meet, you will fall!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "offset": "BATTLE_BERU_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Beelzebub disappeared.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "offset": "AREA45_NPC01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I tried stopping you.\nI'm not responsible for what\nhappens next!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "offset": "GIMMIC",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A wall stands in the way.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "offset": "SWITCH",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> This is a switch...\n> Activate it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "offset": "YES_NO",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "offset": "SWITCH_DAME",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Nothing happened.\n> It seems the electricity is cut.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "offset": "HAIDEN",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It is a circuit panel.\n> Reset the circuit breaker?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "offset": "HAIDEN_YES",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Electricity was restored.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "offset": "HAIDEN_UP",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It is a circuit panel.\n> The breaker has been reset.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "offset": "WIN_SUZAKU_MES",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained Crimson Orb.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "offset": "SAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It is a Save Point.\nIt's unavailable at this time.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "offset": "KAIHUKU",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It is a Healing Point.\nIt's unavailable at this time.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "offset": "DEBUG_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Clear the Vanguards' Hideout?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "offset": "DEBUG_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Reset the circuit breaker?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "offset": "BARRIER_BLUE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "offset": "BARRIER_YELLOW",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "offset": "BARRIER_RED",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "offset": "heat_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I can remember it in a vague sense.\nSweet fluid dripping from a torn\nthroat... splattering as I sink\nmy teeth into rich flesh...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "offset": "heat_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This is a good sensation.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "offset": "arujila_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Let us find Harley, Serph.\nPerhaps he can explain this\nstrange power...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "offset": "npc_018_01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This belonged to Harley,\nbut he was defeated.\nThe new leader inherits the\npossessions of the old...\n> Obtained Blue Key.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "offset": "npc_018_01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Have you seen a strange blue wall?\nHarley used this key to make\nthe blue wall disappear.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "offset": "EXITWARP",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Leave the area?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "offset": "EXITWARP_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "offset": "HOSEKI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object hovers in midair.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "offset": "HOSEKI_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "offset": "HOSEKI_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "offset": "HOSEKI_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "offset": "TAKARA",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object lies on the floor.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "offset": "TAKARA_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "offset": "TAKARA_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "offset": "TAKARA_STILLGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Nothing happened.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "offset": "TAKARA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "offset": "TAKARA_GET2",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .\n> That's the substance the Temple is\nlooking for. It can be traded in for\nMacca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "offset": "TAKARA_MAKA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  Macca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "offset": "TAKARA_DAMAGE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "offset": "TAKARA_DAMAGE_POISON",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand was poisoned.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "offset": "TAKARA_DAMAGE_ACHE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand had stomach aches.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "offset": "TAKARA_DAMAGE_CLOSE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage\nand had magic sealed.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "offset": "TAKARA_KARAGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It was empty.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "offset": "TAKARASAGASI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  found something.\n.........\n> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "offset": "COMP_OPENERROR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Cannot be used here.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "offset": "BAD_KAIFUKUSITAYO",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Due to the decline in\nSolar Noise, Serph's party was\nrelieved of abnormal status.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "offset": "COMP_LIGHTMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The light's effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "offset": "COMP_ESTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The anti-demon field faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 60,
+      "offset": "COMP_REBERAMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The demon attraction faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 61,
+      "offset": "COMP_REFUTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The floating effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 62,
+      "offset": "WARP_ELV_MSG",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Select a floor.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 63,
+      "offset": "WARP_ELV_SEL1",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 64,
+      "offset": "WARP_ELV_SEL2",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 65,
+      "offset": "WARP_ELV_SEL3",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 66,
+      "offset": "WARP_ELV_SEL4",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 67,
+      "offset": "WARP_ELV_SEL5",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 68,
+      "offset": "WARP_ELV_SEL6",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 69,
+      "offset": "FLD_BLUEICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nThe Blue Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 70,
+      "offset": "FLD_REDICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nThe Red Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 71,
+      "offset": "FLD_YERWICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nThe Yellow Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 72,
+      "offset": "FLD_BLUEICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 73,
+      "offset": "FLD_REDICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 74,
+      "offset": "FLD_YERWICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 75,
+      "offset": "FLD_ICE_BREAK",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Destroy it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 76,
+      "offset": "FLD_ICE_BREAK_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 77,
+      "offset": "AREA26_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It's a dead-end past here, boss.\nThat red wall appeared out of nowhere\nand sealed off the basement.\nThe guys guarding Him were\ntrapped inside, too...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 78,
+      "offset": "AREA26_NPC01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Are you going up ahead, sir?\nBe careful, He's no rookie.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 79,
+      "offset": "AREA27_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Whoa, don't get any closer.\nThere's a guy locked away...\nHe went crazy, and wouldn't stop\ndevouring people...\nHe was delirious, going on about\nthe Wicked King... then began\neating his own allies.\nWe need to isolate him until\nhe dies of starvation.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 80,
+      "offset": "AREA29_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You want to know why it's so dark?\nWe tripped the breaker on B2\nto deactivate the wall mechanism.\nIt's inconvenient, but it's better than\nletting that guy escape.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 81,
+      "offset": "AREA38_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir... There's a powerful woman who's...\nlooking for you.\nG-Get outta here...\nShe walked through that wall...\nYou can't stop her... Go...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 82,
+      "offset": "AREA38_NPC01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir... There's a powerful woman who's...\nlooking for you.\nG-Get outta here...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 83,
+      "offset": "AREA42_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yeeeeeeek!!\nPlease, don't eat me!\n*cough*\nOh, it's you, sir.\nDon't scare me like that.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 84,
+      "offset": "AREA45_NPC01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "D-Don't touch that breaker!\nHe'll escape if we turn the power\nback on.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 85,
+      "offset": "AREA45_NPC01_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Remember... I tried to stop you.\nDon't blame me if anything bad\nhappens!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 86,
+      "offset": "AREA08_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Sounds can be heard from\ninside the room.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 87,
+      "offset": "AREA10_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A presence can be felt\nbeyond the door.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 88,
+      "offset": "AREA12_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A familiar presence can be felt\nbeyond the door.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 89,
+      "offset": "AREA15_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A familiar presence can be felt\nbeyond the door.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 90,
+      "offset": "AREA18_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Sounds can be heard from\nwithin the room.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 91,
+      "offset": "EX_BOSS_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A questionable presence can\nbe felt beyond the door.\n> Open the door?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 92,
+      "offset": "DOOR_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 93,
+      "offset": "HAJIKI_DOOR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The door won't open.\n> Someone... or something\nis pressing from the other side.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

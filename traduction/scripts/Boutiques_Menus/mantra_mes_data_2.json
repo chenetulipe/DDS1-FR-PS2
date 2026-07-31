@@ -1,0 +1,27 @@
+{
+  "file_name": "mes_data_2.bmd",
+  "original_path": "facility/msg/mantra/mes_data_2.bmd",
+  "total_messages": 2,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "mtrmsg_error_nogood",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Prerequisites not met.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "mtrmsg_event",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  Mantra added to\n's Mantra Grid.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}
