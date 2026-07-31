@@ -330,15 +330,15 @@ class ScriptManager:
 
     def encode_json_to_bmd(self, json_path: str, orig_bmd_path: str, out_bmd_path: str) -> bool:
         """Injects translated JSON strings back into binary .bmd file via AtlusScriptCompiler."""
-        j_path = Path(json_path)
-        orig_path = Path(orig_bmd_path)
-        out_path = Path(out_bmd_path)
+        j_path = Path(json_path).resolve()
+        orig_path = Path(orig_bmd_path).resolve()
+        out_path = Path(out_bmd_path).resolve()
 
         if not j_path.exists() or not orig_path.exists():
             return False
 
-        # 1. Decompile original to MSG
-        msg_file = out_path.with_suffix(orig_path.suffix + ".msg")
+        # 1. Decompile original to MSG (use absolute paths)
+        msg_file = orig_path.with_name(orig_path.name + ".msg")
         cmd_dec = [str(self.dotnet_exe), str(self.compiler_dll), str(orig_path), "-Decompile", "-Library", "DDS", "-Out", str(msg_file)]
         subprocess.run(cmd_dec, cwd=str(self.tools_dir), capture_output=True)
 
@@ -386,8 +386,8 @@ class ScriptManager:
 
     def encode_all_scripts(self, input_json_dir: str, dds3data_dir: str, logger: Optional[Callable] = None) -> List[str]:
         """Encodes all JSON scripts in input_json_dir back into binary .bmd / .bf files inside dds3data_dir."""
-        in_dir = Path(input_json_dir)
-        orig_dir = Path(dds3data_dir)
+        in_dir = Path(input_json_dir).resolve()
+        orig_dir = Path(dds3data_dir).resolve()
         
         if not in_dir.exists():
             if logger:
