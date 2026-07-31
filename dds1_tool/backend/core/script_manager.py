@@ -238,9 +238,8 @@ class ScriptManager:
                     except Exception:
                         pass
                 else:
-                    # Log every 5 skipped files so user sees progress
-                    if idx % 5 == 0 and logger:
-                        logger(f"[{idx}/{total}] en cours... ({len(decoded_files)} fichiers avec dialogues)", "info")
+                    if logger:
+                        logger(f"[{idx}/{total}] {fpath.name} (aucun dialogue)", "info")
 
         from concurrent.futures import ThreadPoolExecutor, as_completed
         with ThreadPoolExecutor(max_workers=4) as executor:
