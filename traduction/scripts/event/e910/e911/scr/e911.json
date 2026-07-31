@@ -1,0 +1,36 @@
+{
+  "file_name": "e911.bf",
+  "total_messages": 3,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "MSG_SERA_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "(Out of control again!? Geez...)",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "MSG_HARI_00",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Impressive... but it ends here!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "MSG_HARI_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You shall not escape this purgatory!",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

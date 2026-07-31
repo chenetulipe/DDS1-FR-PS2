@@ -1,0 +1,1846 @@
+{
+  "file_name": "f007.bf",
+  "total_messages": 184,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "YES_NO",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "GARD_BATTLE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "All entry is forbidden.\nLeave now, or face termination.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "GARDBT_OR_N",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Get out of my way.\n...I understand.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "arujila_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What is this?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "arujila_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Jinana's men will be heading out,\nsoon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "arujila_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If we don't hurry, we'll be left behind.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "arujila_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I wonder if leaving Jinana there was\nright...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "offset": "arujila_06_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "She's risen to the clouds by now.\nIt seems we're forgetting something.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "offset": "arujila_06_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those who die rise to the clouds\nand fall back to the Junkyard\nas rain.\nThat's natural...\nBut, it feels like I'm forgetting\nsomething important.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "offset": "arujila_06_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I know. Isn't there... something you do\nwhen a person dies?\nAnd, why does my... chest hurt?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "offset": "arujila_08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm an idiot for letting someone\nlike him trick me again...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "offset": "arujila_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I still don't like devouring...\nBut, how can we fight if we lose\nour powers?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "offset": "schro_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> It peers at you through deep,\nsilver eyes.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "offset": "schro_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> It peers at you through deep,\nsilver eyes.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "offset": "schro_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> It peers at you through deep,\nsilver eyes.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 15,
+      "offset": "schro_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> It peers at you through deep,\nsilver eyes.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "offset": "schro_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> Looking closely, you can see\na strange bell around its neck.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "offset": "schro_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> Its eyes seem to be filled with\ncompassion for Argilla.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "offset": "schro_07",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> Looking closely, you can see\na strange bell around its neck.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "offset": "schro_08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> Looking closely, you can see\na strange bell around its neck.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "offset": "schro_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It's that animal.\n> Looking closely, you can see\na strange bell around its neck.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "offset": "npc_01_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "People from all Tribes come here\nto gather information, sir.\nThat is why fighting is forbidden.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 22,
+      "offset": "npc_01_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "New information was released by\nthe Temple.\nEveryone is talking about Atma\nand the black-haired woman.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "offset": "npc_01_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Maribel's leader is a woman,\nbut she is a strong warrior.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "offset": "npc_01_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Maribel's leader is a woman,\nbut she is a strong warrior.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "offset": "npc_01_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Wolves and the Brutes are busy\nfighting one another.\nNow is the time to strike against\nthe Solids.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 26,
+      "offset": "npc_01_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You killed Jinana?\nI expect no less from our\nleader.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 27,
+      "offset": "npc_01_07",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You killed Jinana?\nI expect no less from our\nleader.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "offset": "npc_01_08a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It seems our headquarters was\nattacked.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 29,
+      "offset": "npc_01_08b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "H-Hurry! You have to return\nto base and help them!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 30,
+      "offset": "npc_01_09a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera is that powerful?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 31,
+      "offset": "npc_01_09b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Who in the world is she?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 32,
+      "offset": "npc_01_10",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We're moving our headquarters near\ncoordinate 136!? ...Ah, that's the false\ninformation I'm supposed to leak.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 33,
+      "offset": "npc_01_11a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin of the Brutes never gives up\nuntil he's conquered a Tribe.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 34,
+      "offset": "npc_01_11b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "He's persistent like a... snake?\nThat doesn't sound right.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 35,
+      "offset": "npc_01_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin of the Brutes never gives up\nuntil he's conquered a Tribe.\nHe's persistent like a... snake?\nThat doesn't sound right.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 36,
+      "offset": "npc_01_14",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir!\nThe guards won't allow us to\nenter, anymore.\nIf we try, they kill us.\nWhat the hell's going on?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 37,
+      "offset": "npc_01_15",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Y-You... killed the guards.\nWas th-that really the right\nthing to do?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 38,
+      "offset": "npc_02_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Everyone has arrived. Calling all\nTribe bosses at once is \nunprecedented.\nThe Temple must have a very\nimportant message.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 39,
+      "offset": "npc_02_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Atma, the power of demons...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 40,
+      "offset": "npc_02_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "It seems our Tribe was not the only\none to receive such power.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 41,
+      "offset": "npc_02_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We have fought the Maribel.\nBat's knife skills have killed\nmany of us. Be careful, sir.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 42,
+      "offset": "npc_02_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We have fought the Maribel.\nBat's knife skills have killed\nmany of us. Be careful, sir.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 43,
+      "offset": "npc_02_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sir, what is that creature?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 44,
+      "offset": "npc_02_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Reports claim Mick is invading\nManipura right now.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 45,
+      "offset": "npc_02_07",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Reports claim Mick is invading\nManipura right now.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 46,
+      "offset": "npc_02_08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I-I've never even considered\nbetraying you, sir...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 47,
+      "offset": "npc_02_09a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I've heard of this area,\ncoordinate 136.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 48,
+      "offset": "npc_02_09b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Supposedly, it's full of strange\nbuildings, the likes of which\nwe've never seen.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 49,
+      "offset": "npc_02_10a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Mick was a bigger coward than\nI thought.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 50,
+      "offset": "npc_02_10b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Er, I mean... It's good to know\nthat you're safe and sound.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 51,
+      "offset": "npc_02_11",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin's Atma is called \"Ravana.\"\nIt is a very formidable demon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 52,
+      "offset": "npc_02_12",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin's Atma is called \"Ravana.\"\nIt is a very formidable demon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 53,
+      "offset": "npc_02_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Varin's Atma is called \"Ravana.\"\nIt is a very formidable demon.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 54,
+      "offset": "npc_001_05_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "S-Sir!!\nI-I'm glad to see you.\nAn unbelievably strong band of\nrookies showed up out of nowhere!\nWe've lost all transmission from\nSvadhisthana, Manipura, Anahata,\nand Ajna...\nWe're cut off from every sector!\n...You won't abandon us, will you?\nYou gotta do something!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 55,
+      "offset": "npc_001_05_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We've lost all transmission from\nSvadhisthana, Manipura, Anahata,\nand Ajna...\nWe're cut off from every sector!\n...You won't abandon us, will you?\nYou gotta do something!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 56,
+      "offset": "npc_001_05_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "S-Some rookie... was looking for...\nlooking for you, sir...\nI d-didn't... talk, but... this is what...\nhe did to me...\nHe went into the... temple...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 57,
+      "offset": "sera_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "People have always raised their eyes\nto the heavens.\nPower, knowledge...\nThis tower is a monument to such\nignorant greed.\nIf our destiny is to survive by\nfeeding off of others, what does\nGod intend by showing us light?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 58,
+      "offset": "sera_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Hm...?\nWhat was I saying?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 59,
+      "offset": "sera_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Heat's words, and Argilla's\nfeelings...\nWhich do you feel in your heart?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 60,
+      "offset": "sera_02_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Definitely Heat.\nArgilla, I think.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 61,
+      "offset": "sera_02_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes, Heat may be correct.\nThat is a strong, but very sad\nway to live...\nSerph, I wonder what causes such\ndesires in humanity...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 62,
+      "offset": "sera_02_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Argilla's feelings aren't unusual.\nIt's a very considerate way to\nlive, but also very dangerous.\nSerph, I wonder what causes such\ndesires in humanity...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 63,
+      "offset": "sera_04a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "No...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 64,
+      "offset": "sera_04b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Don't climb... the tower...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 65,
+      "offset": "heat_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "There's food all around us.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 66,
+      "offset": "heat_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Just returning to headquarters\nwithout asking anything?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 67,
+      "offset": "heat_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Hey, what's the deal?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 68,
+      "offset": "heat_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I don't know what kinda girl she\nis, but it won't matter much after\nI devour her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 69,
+      "offset": "heat_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "She's gutsier than I expected.\nNot bad at all...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 70,
+      "offset": "heat_05a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sneaking through the shadows\nis for wussies...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 71,
+      "offset": "heat_05b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why can't we just take 'em\nhead on?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 72,
+      "offset": "heat_06a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why're we wasting time here?\nShouldn't we be chasing that\nfat sack of crap?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 73,
+      "offset": "heat_06b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Don't tell me...\nWe aren't gonna kill him, either?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 74,
+      "offset": "heat_06_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We must avenge Jinana's death.\n...I don't want to fight him.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 75,
+      "offset": "heat_06_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Then let's get our asses moving!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 76,
+      "offset": "heat_06_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If that's how you're approaching\nthis, then you're going to die.\nYour half-assed thinking's already\ncost people their lives. If you\nhadn't stopped me before...\nY'know what? Fine, go ahead and\ndie. At least then I can show this\nTribe what a real leader is like.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 77,
+      "offset": "heat_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera'd never go with that\nass bastard...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 78,
+      "offset": "heat_10",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera doesn't want to go inside.\nHurry up and finish what you\ncame here for.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 79,
+      "offset": "heat_11a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm sick of talking about this.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 80,
+      "offset": "heat_11b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The only way to survive is to kill\nothers. That's how the world works.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 81,
+      "offset": "heat_12a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm sick of debating this.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 82,
+      "offset": "heat_12b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The only way to survive is to kill\nothers. That's how the world works.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 83,
+      "offset": "heat_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What's wrong, Sera!?\nIs your head okay...?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 84,
+      "offset": "heat_14a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Those bastards aren't going to\nlet us pass...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 85,
+      "offset": "heat_14b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Let's do this, Serph!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 86,
+      "offset": "heat_15",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Let's go!\nTwo mouths means you'll be\ndevoured twice as fast!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 87,
+      "offset": "npc_03_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So, you are the one marked with\nthe Water Crown brand... The man\nwho destroyed the Vanguards...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 88,
+      "offset": "npc_03_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Get out of my way...\nI am going to find the black-haired\nwoman.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 89,
+      "offset": "npc_03_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Our leader, Jinana, is the Maribel's\nstrongest warrior.\nYou are no match for her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 90,
+      "offset": "npc_03_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Our leader, Jinana, is the Maribel's\nstrongest warrior.\nYou are no match for her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 91,
+      "offset": "npc_03_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Solids' base is a complex\nlabyrinth.\nYou must survive the maze in order\nto reach Mick.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 92,
+      "offset": "npc_03_06",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I've been looking for you, man\nmarked by the Water Crown.\nIs it... true that Jinana died?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 93,
+      "offset": "npc_03_06_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I am sorry...\nIt is true.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 94,
+      "offset": "npc_03_06_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dammit! I'm going to tear Bat\napart for this!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 95,
+      "offset": "npc_03_06_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dammit! I'll eat Bat alive\nfor this!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 96,
+      "offset": "npc_03_07a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm going to kill that son of a...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 97,
+      "offset": "npc_03_07b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You'll kill him for me if you can,\nright?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 98,
+      "offset": "npc_03_08",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Jinana named us all comrades...\nAnd then that bastard, Bat...!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 99,
+      "offset": "npc_03_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Jinana told us that Nirvana is a world\nwithout war...\nShe called it paradise...\nCan such a world really exist?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 100,
+      "offset": "npc_03_10a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "If we can kill Bat, then Jinana\nwill finally be avenged...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 101,
+      "offset": "npc_03_10b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'll do anything I can to help,\nsir.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 102,
+      "offset": "npc_03_11a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So you've finally killed Bat...\nThank you.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 103,
+      "offset": "npc_03_11b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Why... am I crying?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 104,
+      "offset": "npc_03_13a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So much has happened, but the\nfinal battle is here at last.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 105,
+      "offset": "npc_03_13b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Do it for all of us, sir.\n...and for Jinana.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 106,
+      "offset": "npc_04_01a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I came here to size you up myself,\nbut you're just a skinny little\npretty boy.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 107,
+      "offset": "npc_04_01b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "But I see strength behind those\neyes of yours...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 108,
+      "offset": "npc_04_01c",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You changed early like me,\ndidn't you?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 109,
+      "offset": "npc_04_02",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So this is the mark of Atma...\nwhich means, we are all demons.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 110,
+      "offset": "npc_04_03a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Jinana of the Maribel?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 111,
+      "offset": "npc_04_03b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "She was hot.\nWhat a waste, to have Mick\ndevour her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 112,
+      "offset": "npc_04_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "You're asking around about Mick?\nTake my word for it, don't\nwaste your time.\nSneaky tricks are what our boss\nis best at. You're only wasting\nyour time.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 113,
+      "offset": "npc_04_06a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "So her beautiful body is gone...\nHey, don't gimme that.\nI'm trying t'feel sorry for her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 114,
+      "offset": "npc_04_06b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "...Why would I pity her, anyway?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 115,
+      "offset": "npc_04_08a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I'm only a messenger. I don't\nhave anything to do with Mick's\nplans.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 116,
+      "offset": "npc_04_08b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "That sissy over there's glaring\nat me, and I can't stand it!",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 117,
+      "offset": "npc_04_09",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I hear coordinate 136 is full of\nclever traps and puzzles.\nGeez, just trying to show my enemy\na little mercy... whatever that is.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 118,
+      "offset": "npc_04_10",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "\"For shelter, a big tree is\nbetter than a small one.\" That's\nhow you gotta live in this world.\nNice to meet you, new boss.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 119,
+      "offset": "npc_04_11",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I heard the Wolves refused to\nsurrender, and were devoured.\nIt amazes me they'd do that,\nand accept a violent death.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 120,
+      "offset": "npc_04_12",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I heard the Wolves refused to\nsurrender, and were devoured.\nIf that's how they chose to live\ntheir life, at least they died\nas individuals.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 121,
+      "offset": "npc_04_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "The Brutes or the Embryon...\nVarin or you...\nWhatever the results, they will\nchange the world forever.\nI'll be hoping for your victory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 122,
+      "offset": "npc_04_14a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Hey, can you feel...\n...something inside of your head?\nEver since I received the Atma,\nI can hear, or... feel... it.\nIt tells me that my true name\nis James Mason...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 123,
+      "offset": "npc_04_14b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I hate to ask you this, but...\nCan you do me a favor?\nIf you find a girl... named Amelia,\nI need you to tell her something\nfor me.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 124,
+      "offset": "npc_04_14_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Okay.\nNo chance.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 125,
+      "offset": "npc_04_14_ans0",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Thank you.\nJust tell her...\n\"Please be happy.\"\n...That's all.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 126,
+      "offset": "npc_04_14_ans1",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Of-Of course...\nOh well...\nI'm not doing so well...\nDoubt I'll get to... Nirvana...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 127,
+      "offset": "arujila_02a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Something happened, didn't it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 128,
+      "offset": "arujila_02b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Heat, we need to get back\nto headquarters.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 129,
+      "offset": "arujila_03",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "We can't let them find Sera.\nLet's hurry back.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 130,
+      "offset": "arujila_04",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I feel the same way.\nI... don't want to fight Jinana.\nI don't know how...\nBut, I feel like we would get\nalong well with her.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 131,
+      "offset": "arujila_10a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Cielo said that a cat warned him\nwe were in danger...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 132,
+      "offset": "arujila_10b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "But, how?\nIsn't a cat a small animal?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 133,
+      "offset": "arujila_11a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "All of life is a competition...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 134,
+      "offset": "arujila_11b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "What's the point of surviving, then?\nAnd... why do I feel like I must protect\nmy comrades?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 135,
+      "offset": "arujila_11c",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Something is wrong with this\nworld. Like reality is... twisted.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 136,
+      "offset": "arujila_13",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "This will be the end...\nRight, Serph?\nThen we can say goodbye to these\nbodies, and all the killing...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 137,
+      "offset": "arujila_14a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Sera said that she came to\nhelp us.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 138,
+      "offset": "arujila_14b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Is that where she went?\nIs she going to accomplish what\nshe came for... alone?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 139,
+      "offset": "npc_06_01",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "I know the truth, man with the\nWater Crown brand.\nIn demon form, you are weak to\nfire attacks. There is no use\ntrying to hide it.\nHaving the ability to analyze an\nenemy's weak point turns the\ntide in many battles...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 140,
+      "offset": "gale_08a",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "They clearly don't want us to\nreach Nirvana.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 141,
+      "offset": "gale_08b",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "These probably aren't orders from\nthe Karma Temple. You saw what\nSera was capable of...",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 142,
+      "offset": "ciero_05",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Dis is not what was s'posed\nta happen...\nWe're like da kings of de Junkyard.\nDey should bow to us!\nWe're de kings now, ja?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 143,
+      "offset": "EXITWARP",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Leave the area?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 144,
+      "offset": "EXITWARP_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 145,
+      "offset": "HOSEKI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object hovers in midair.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 146,
+      "offset": "HOSEKI_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 147,
+      "offset": "HOSEKI_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 148,
+      "offset": "HOSEKI_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 149,
+      "offset": "TAKARA",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A strange object lies on the floor.\nTouch it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 150,
+      "offset": "TAKARA_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 151,
+      "offset": "TAKARA_NOGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph decided not to touch it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 152,
+      "offset": "TAKARA_STILLGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Nothing happened.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 153,
+      "offset": "TAKARA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 154,
+      "offset": "TAKARA_GET2",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  x .\n> That's the substance the Temple is\nlooking for. It can be traded in for\nMacca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 155,
+      "offset": "TAKARA_MAKA_GET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Obtained  Macca.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 156,
+      "offset": "TAKARA_DAMAGE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 157,
+      "offset": "TAKARA_DAMAGE_POISON",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand was poisoned.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 158,
+      "offset": "TAKARA_DAMAGE_ACHE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage,\nand had stomach aches.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 159,
+      "offset": "TAKARA_DAMAGE_CLOSE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph's party took damage\nand had magic sealed.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 160,
+      "offset": "TAKARA_KARAGET",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> It was empty.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 161,
+      "offset": "TAKARASAGASI",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ">  found something.\n.........\n> Obtained  x .",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 162,
+      "offset": "COMP_OPENERROR",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Cannot be used here.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 163,
+      "offset": "BAD_KAIFUKUSITAYO",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Due to the decline in\nSolar Noise, Serph's party was\nrelieved of abnormal status.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 164,
+      "offset": "COMP_LIGHTMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The light's effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 165,
+      "offset": "COMP_ESTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The anti-demon field faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 166,
+      "offset": "COMP_REBERAMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The demon attraction faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 167,
+      "offset": "COMP_REFUTOMAEND",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The floating effect faded.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 168,
+      "offset": "WARP_ELV_MSG",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Select a floor.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 169,
+      "offset": "WARP_ELV_SEL1",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 170,
+      "offset": "WARP_ELV_SEL2",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 171,
+      "offset": "WARP_ELV_SEL3",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 172,
+      "offset": "WARP_ELV_SEL4",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 173,
+      "offset": "WARP_ELV_SEL5",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 174,
+      "offset": "WARP_ELV_SEL6",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": ".\n.\n.\n.\n.\n.\nCancel.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 175,
+      "offset": "FLD_BLUEICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nThe Blue Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 176,
+      "offset": "FLD_REDICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nThe Red Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 177,
+      "offset": "FLD_YERWICE_KEYHAVE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nThe Yellow Key may destroy it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 178,
+      "offset": "FLD_BLUEICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A blue wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 179,
+      "offset": "FLD_REDICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A red wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 180,
+      "offset": "FLD_YERWICE",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> A yellow wall stands in the way.\nSerph cannot pass through it.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 181,
+      "offset": "FLD_ICE_BREAK",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Destroy it?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 182,
+      "offset": "FLD_ICE_BREAK_SEL",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 183,
+      "offset": "hungry",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Serph and the party feel hungry...\n> They grew weak from hunger.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}

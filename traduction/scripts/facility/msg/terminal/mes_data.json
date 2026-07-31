@@ -1,0 +1,76 @@
+{
+  "file_name": "mes_data.bmd",
+  "total_messages": 7,
+  "messages": [
+    {
+      "id": 0,
+      "offset": "msg_confirm",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Are you sure you want to teleport\nto ?",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 1,
+      "offset": "msg_err_recover",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> No one requires healing.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "offset": "msg_err_trans",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> No destination available.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "offset": "msg_mantra_event",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\n's Expansion Cell\nhas been detected.\nhas been confiscated\nand  Mantra has been\nadded to the Mantra Grid.\nEmbrace this new Mantra,\nChild of Purgatory.\n>  Mantra was added to\nthe Mantra Grid.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "offset": "msg_mantra_all_master_ev",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> Transmission from the Karma Temple:\nCode XXX-XXXX confirmation:\n has mastered all Mantras.\nXXX-XXXX's system update may\nfacilitate the decryption of\nundeciphered data.\nXXX-XXXX has been recorded\nas an Asura anomaly.\nData to be analyzed.\nConsider this carefully,\nChild of Purgatory.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "offset": "msg_mantra_get_1st",
+      "block_type": "msg",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "> The skills that can be learned are\ndetermined by upgrades known as\nMantras.\n> Atma Points (AP) earned in battle\nare used to master Mantras and\ngain skills.\n> By mastering Mantras, additional\nMantras will become available for\ndownload.\n> Select \"Get Mantra\" at the Karma\nTerminal to download a Mantra for\neach party member.",
+      "texte_fr": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "offset": "msg_sel01",
+      "block_type": "sel",
+      "nom_orig": "",
+      "nom_fr": "",
+      "texte_orig": "Yes.\nNo.",
+      "texte_fr": "",
+      "notes": ""
+    }
+  ]
+}
