@@ -1,4 +1,4 @@
-# Digital Devil Saga 1 FR — Audio & Translation Lab
+# Digital Devil Saga 1 FR
 
 Cet outil permet d'extraire, de traduire et de recompiler les textes du jeu **Shin Megami Tensei: Digital Devil Saga 1** (Version Européenne, SLES_534.58).
 
